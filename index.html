@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>熔断警告—LEVEL&nbsp;&nbsp;&nbsp;3</title>
+    <style>
+	    .wan {
+			animation: ss 3s infinite linear normal;
+			position: fixed;
+			border:none;
+			white-space:nowrap;
+		 }
+        .hrf {
+			width: 100%;
+			height:10px;
+			left:0%;
+			border-top: 10px solid orange;
+			}
+		.hrs {
+			width: 200%;
+			height:10px;
+			border-top: 10px dashed yellow;
+			}
+		.ab {
+				top:40%;
+				width:200%;
+				display:inline-block;
+				font-size: x-large;
+				font-weight: 600;
+				margin: 0 auto;
+				box-sizing: border-box;
+				color:#f56c0b;
+			}
+		.abc {
+			display: inline-block;
+			text-align: center;
+			width: 265px;
+			white-space: normal;
+		}
+        /*.marquee:hover {
+            animation-play-state: paused
+        }*/
+
+        /* anima */
+		@keyframes ss {
+            0%   { opacity: 1 }
+			50%   { opacity:0.4 }
+            100% { opacity:1 }
+			
+        }
+    </style>
+</head>
+<body>
+	
+		
+		<hr class="wan hrf" style="top:0%"/>
+		<hr class="wan hrs" style="top:2%;left:0%;"/>
+			<div id="ftdv" class="wan ab" onload="fontpb()">
+				<div class="abc">
+					<a>
+						警告! 爐芯熔解!
+					</a>
+					</br>
+					<a>
+						Warning! Nuclear reactor core melting!Warning!
+					</a>
+					</br>
+					<a>
+						警告! 堆芯熔解!
+					</a>
+				</div>
+			</div>
+		</div>
+		<hr class="wan hrs" id="L2" style="bottom:2%;left:0%;" />
+		<hr class="wan hrf" style="bottom:0%"/>
+	
+	<script type="text/javascript">
+	//取可见区域宽度并且进行二倍以获得内容区域宽度
+		//排列内容
+		var pbt=10;
+		var ih = document.getElementById("ftdv").innerHTML;
+		console.log("1");
+		for(var num = 1;num<pbt;num++){
+			document.getElementById("ftdv").innerHTML = document.getElementById("ftdv").innerHTML + ih;
+		}
+	<!-- //滚动函数 -->
+	function Marqpuee(){
+		if (Number(document.getElementsByClassName("hrs")[0].style.left.replace(/[^0-9]/ig,"")) < 100) {
+			var wz = Number(document.getElementsByClassName("hrs")[0].style.left.replace(/[^0-9]/ig,"")) + 1;
+		}
+		else {
+			wz = 0;
+		}
+		var x = document.getElementsByClassName("hrs");
+		var i;
+		for (i = 0; i < x.length; i++) {
+			x[i].style.left = "-"+wz + "%";
+		}
+	}
+	
+	function MPT(){
+		if (Number(document.getElementById("ftdv").style.left.replace(/[^0-9]/ig,"")) < 97) {
+			var wzf = Number(document.getElementById("ftdv").style.left.replace(/[^0-9]/ig,"")) + 1;
+		}
+		else {
+			wzf = 0;
+		}
+		document.getElementById("ftdv").style.left= "-"+wzf + "%";
+	}
+	<!-- //定时器 -->
+	setInterval(Marqpuee,60);
+	setInterval(MPT,120);
+</script>
+</body>
+</html>
+
