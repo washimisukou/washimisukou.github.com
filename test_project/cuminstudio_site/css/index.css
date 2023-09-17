@@ -1,0 +1,83 @@
+html,body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+header,footer{
+    position:fixed;
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+    z-index: 99;
+}
+
+header{
+    top:0;
+}
+footer{
+    bottom: 0;
+}
+footer > p {
+    margin: 10px 2% ;
+}
+header > a,img {
+    display: inline-block;
+}
+header > img {
+    width: 15%;
+    float: left;
+}
+header > a {
+    padding: 20px 10px;
+    float: right;
+    font-weight: bold ;
+}
+main{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    margin: 65px 0px;
+}
+.postings{
+    background-color: rgb(234, 234, 234);
+    width: 99%;
+    height: 200px;
+    padding: 10px;
+    margin: 3px;
+}
+.post_text{
+    width: 80%;
+    z-index: 50;
+    height: 200px;
+}
+.post_img{
+    display: inline-block;
+    width: 99%;
+    z-index: 30;
+    padding: 5px;
+}
+.post_img > img {
+    float: right;
+    width: 180px;
+    height: 180px;
+}
+.postings >div{
+    position: absolute;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+    margin-right: 20px;
+}
+.post_text_p3{
+    bottom: 0;
+    position: absolute;
+}
+:any-link{
+    color: gray;
+}
+a:link{
+    color: gray;
+}
