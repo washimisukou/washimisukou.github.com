@@ -79,6 +79,11 @@ main {
     font-weight: bold;
     margin: 20px;
 }
+#ps{
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
 .Module {
     margin: 5px;
     background-color: rgb(209, 209, 209);
