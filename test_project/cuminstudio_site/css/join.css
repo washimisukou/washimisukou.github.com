@@ -21,28 +21,40 @@ header {
     position: relative;
 }
 
-header>a,
-img {
+
+header>a,img {
+    display: inline-block;
+    margin: 0px 5px;
+}
+header>a{
+    margin: 0px 5px;
+}
+header> nav{
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+header> a > img {
+    width: auto;
+    height: 100%;
+    float: left;
+    max-width: 360px;
+    z-index: 97;
     display: inline-block;
     margin: 0px 5px;
 }
 
-header>img {
-    width: auto;
-    height: 100%;
-    float: left;
-    position: absolute;
-    max-width: 360px;
-    z-index: 97;
-}
-
-header>a {
+header> nav > a {
     padding: 20px 10px;
     float: right;
     font-weight: bold;
     z-index: 98;
     position: relative;
+    display: inline-block;
+    margin: 0px 5px;
 }
+
 
 footer {
     bottom: 0;

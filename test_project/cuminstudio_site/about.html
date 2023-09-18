@@ -22,39 +22,37 @@
     <meta content="./img/logo300.png" />
     <link rel="stylesheet" type="text/css" href="./css/about.css">
 </head>
+
 <body>
     <header>
-        <img src="./img/logo_MainPage2.png">
-        <a href="./resource_img/用户协议 – 莳萝籽工坊.pdf">用户协议</a>
-        <a href="./join.html">加入我们</a>
-        <a href="./about.html">联系我们</a>
-        <a href="./shop.html">购买产品</a>
-        <a href="./ako.html">Arknights Only</a>
+        <a href="./index.html">
+            <img src="./img/logo_MainPage2.png" οnclick="window.location.href='./index.html'">
+        </a>
+        <nav>
+            <a href="./resource_img/用户协议 – 莳萝籽工坊.pdf">用户协议</a>
+            <a href="./join.html">加入我们</a>
+            <a href="./about.html">联系我们</a>
+            <a href="./shop.html">购买产品</a>
+            <a href="./ako.html">Arknights Only</a>
+        </nav>
     </header>
     <main>
-        联系我们
-        购买问题请联系您对应渠道的客服，线下购买请当场提出售后请求。
-        莳萝籽工坊业务统一客服邮箱：cs@cuminstudio.com
+        <a id="title">联系我们</a>
+        <p><a class="ps">购买问题请联系您对应渠道的客服，线下购买请当场提出售后请求。
+                莳萝籽工坊业务统一客服邮箱：</a>
+            <a class="ps mail" href="mailto:cs@cuminstudio.com">cs@cuminstudio.com</a>
+        </p>
 
-        Bilibili账号：莳萝籽工坊
-
-        微博账号：莳萝籽工坊
-
-        莳萝籽工坊QQ群：
-
-        莳萝籽工坊1群：148084317
-
-        莳萝籽工坊2群：794845560
-
-        莳萝籽工坊3群：724262577
-
-        莳萝籽工坊4群：991541560
-
-        Arknights Only游客群：689323985
-
-        莳萝籽工坊招聘邮箱：hr@cuminstudio.com
-
-
+        <p class="method"><a>Bilibili账号：</a><a href="https://space.bilibili.com/1283015432" class="bilibili">莳萝籽工坊</a>
+        </p>
+        <p class="method"><a>微博账号：</a><a href="https://weibo.com/u/7829070218" class="weibo">莳萝籽工坊</a></p>
+        <p class="method"><a>莳萝籽工坊QQ 1群：</a><a>148084317</a></p>
+        <p class="method"><a>莳萝籽工坊QQ 2群：</a><a>794845560</a></p>
+        <p class="method"><a>莳萝籽工坊QQ 3群：</a><a>724262577</a></p>
+        <p class="method"><a>莳萝籽工坊QQ 4群：</a><a>991541560</a></p>
+        <p class="method"><a>Arknights Only游客群：</a><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=BNDP5dgU-vzyGfT7zcvtdxxxDh5RGb3W&authKey=XxdP5MFJb1BsO419HRzDctlxdTr%2BAgzU2mDRNm3J%2B0R5J93JGtOk%2FTIXp%2B7ym8jX&noverify=0&group_code=689323985
+            " class="qqq">689323985</a></p>
+        <p class="method"><a>莳萝籽工坊招聘邮箱：</a><a href="mailto:hr@cuminstudio.com" class="mail">hr@cuminstudio.com</a></p>
     </main>
     <footer>
         <p>
@@ -70,10 +68,5 @@
         </p>
     </footer>
 </body>
-<script>
-    $('img').on("error", function () {
-        $(this).attr('style', '/imgs/default.jpg');  // 替换为默认图片
-    });
-</script>
 
 </html>

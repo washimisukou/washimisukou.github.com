@@ -21,27 +21,37 @@ header {
     position: relative;
 }
 
-header>a,
-img {
+header>a,img {
+    display: inline-block;
+    margin: 0px 5px;
+}
+header>a{
+    margin: 0px 5px;
+}
+header> nav{
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+header> a > img {
+    width: auto;
+    height: 100%;
+    float: left;
+    max-width: 360px;
+    z-index: 97;
     display: inline-block;
     margin: 0px 5px;
 }
 
-header>img {
-    width: auto;
-    height: 100%;
-    float: left;
-    position: absolute;
-    max-width: 360px;
-    z-index: 97;
-}
-
-header>a {
+header> nav > a {
     padding: 20px 10px;
     float: right;
     font-weight: bold;
     z-index: 98;
     position: relative;
+    display: inline-block;
+    margin: 0px 5px;
 }
 
 footer {
@@ -72,11 +82,39 @@ main {
     overflow: hidden;
     margin-bottom: 100px;
 }
+#title{
+    text-align: center;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px;
+}
+.ps{
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+.method{
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+.bilibili {
+    color: #1ca0d9;
+}
+.weibo {
+    color: #ff8200;
+}
+.qqq {
+    color: #ea1c26;
+}
+.mail {
+    color: #8f8f8f;
+}
 :any-link {
-    color: black;
     text-decoration: none;
 }
-
-a:link {
+header a:any-link {
     color: black;
+    text-decoration: none;
 }
