@@ -72,6 +72,13 @@ main {
     overflow: hidden;
     margin-bottom: 100px;
 }
+#title{
+    text-align: center;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px;
+}
 .Module {
     margin: 5px;
     background-color: rgb(209, 209, 209);
