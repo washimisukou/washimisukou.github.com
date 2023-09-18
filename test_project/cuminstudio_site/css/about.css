@@ -72,16 +72,6 @@ main {
     overflow: hidden;
     margin-bottom: 100px;
 }
-.Module > a{
-    width: 30px;
-    display: inline-block;
-    position: absolute;
-    padding: 40px 10px;
-}
-.Module > ul{
-    display: inline-block;
-    list-style: none;
-}
 :any-link {
     color: black;
     text-decoration: none;
