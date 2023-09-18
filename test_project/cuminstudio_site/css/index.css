@@ -8,7 +8,7 @@ body {
 header,
 footer {
     width: 100%;
-    min-width: 397px;
+    min-width: 390px;
     background-color: rgb(234, 234, 234);
     z-index: 99;
 }
