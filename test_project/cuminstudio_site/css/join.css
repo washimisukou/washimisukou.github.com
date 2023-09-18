@@ -72,6 +72,10 @@ main {
     overflow: hidden;
     margin-bottom: 100px;
 }
+.Module {
+    margin: 5px;
+    background-color: rgb(209, 209, 209);
+}
 .Module > a{
     width: 30px;
     display: inline-block;
@@ -81,6 +85,17 @@ main {
 .Module > ul{
     display: inline-block;
     list-style: none;
+    position: relative;
+    width: 80%;
+}
+.Module > ul >li{
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(127, 127, 127);
+    width: 80%;
+    display: inline-block;
+    position: relative;
 }
 :any-link {
     color: black;
