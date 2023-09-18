@@ -103,22 +103,16 @@ main {
     position: absolute;
 }
 
-.right {
-    float: right;
-}
-
-.left {
-    float: left;
-    margin-right: 20px;
+.post_text_p1 {
+    margin: 0px 0px 40px;
 }
 
 .post_text_p3 {
     bottom: 0;
     position: absolute;
 }
-
-.post_text_p1 {
-    margin: 0px 0px 40px;
+.post_text_p3 > a {
+    margin: 0px 20px;
 }
 
 :any-link {
