@@ -11,6 +11,8 @@ footer {
     min-width: 390px;
     background-color: rgb(234, 234, 234);
     z-index: 99;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
