@@ -69,7 +69,7 @@ footer>p {
 
 
 @media screen and (max-width: 900px) {
-    header>img {
+    header> a >img {
         opacity: 0.05;
     }
 
