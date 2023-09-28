@@ -20,7 +20,21 @@
     <link rel="icon" href="./img/logo300.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="./img/logo300.png" />
     <meta content="./img/logo300.png" />
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/mgc.css">
+    <script>
+        if (getCookie("sid") == "",getCookie("sn") == "",getCookie("to") == ""){
+            window.location.replace("./error/404.html");
+        }
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i].trim();
+                if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+            }
+            return "";
+        }
+    </script>
 </head>
 
 <body>
@@ -29,12 +43,11 @@
             <img src="./img/logo_MainPage2.png">
         </a>
         <nav>
-            <a href="./resource_img/用户协议 – 莳萝籽工坊.pdf">用户协议</a>
-            <a onclick="join();">加入我们</a>
-            <a onclick="about();">联系我们</a>
-            <a href="./shop.html">购买产品</a>
-            <a href="./ako.html">Arknights Only</a>
-            <a onclick="index();">首页</a>
+            <a href="./mgr.html">管理后台</a>
+            <a href="./editor.html">发布新帖</a>
+            <a href="./shop.html">商城</a>
+            <a href="./main.html">后台主页</a>
+            <a href="./index.html">首页</a>
         </nav>
     </header>
     <main>
@@ -48,6 +61,10 @@
                 <div class="post_img">
                     <img src="./resource_img/ZB-1536x1026.jpg" height="120px">
                 </div>
+                <div class="post_editor">
+                    <p><a>编辑</a></p>
+                    <p><a>删除</a></p>
+                </div>
             </div>
             <div class="postings">
                 <div class="post_text">
@@ -59,6 +76,10 @@
                 <div class="post_img">
                     <img src="" height="120px" onerror='this.style.display="none"'>
                 </div>
+                <div class="post_editor">
+                    <p><a>编辑</a></p>
+                    <p><a>删除</a></p>
+                </div>
             </div>
             <div class="postings">
                 <div class="post_text">
@@ -68,6 +89,10 @@
                 </div>
                 <div class="post_img">
                     <img src="" height="120px" onerror='this.style.display="none"'>
+                </div>
+                <div class="post_editor">
+                    <p><a>编辑</a></p>
+                    <p><a>删除</a></p>
                 </div>
             </div>
             <div class="postings">
@@ -79,6 +104,10 @@
                 <div class="post_img">
                     <img src="" height="120px" onerror='this.style.display="none"'>
                 </div>
+                <div class="post_editor">
+                    <p><a>编辑</a></p>
+                    <p><a>删除</a></p>
+                </div>
             </div>
             <div class="postings">
                 <div class="post_text">
@@ -88,6 +117,10 @@
                 </div>
                 <div class="post_img">
                     <img src="" height="120px" onerror='this.style.display="none"'>
+                </div>
+                <div class="post_editor">
+                    <p><a>编辑</a></p>
+                    <p><a>删除</a></p>
                 </div>
             </div>
             <div class="postings">
@@ -99,90 +132,15 @@
                 <div class="post_img">
                     <img src="./resource_img/MG_1920-1536x1024.jpg" height="120px">
                 </div>
+                <div class="post_editor">
+                    <p><a>编辑</a></p>
+                    <p><a>删除</a></p>
+                </div>
             </div>
         </div>
         <div id="pg2" style="display: none;">
-            <a id="title">联系我们</a>
-            <p><a class="ps">购买问题请联系您对应渠道的客服，线下购买请当场提出售后请求。
-                    莳萝籽工坊业务统一客服邮箱：</a><br>
-                <a class="ps mail" href="mailto:cs@cuminstudio.com">cs@cuminstudio.com</a>
-            </p>
-
-            <p class="method"><a>Bilibili账号：</a><a href="https://space.bilibili.com/1283015432"
-                    class="bilibili">莳萝籽工坊</a>
-            </p>
-            <p class="method"><a>微博账号：</a><a href="https://weibo.com/u/7829070218" class="weibo">莳萝籽工坊</a></p>
-            <p class="method"><a>莳萝籽工坊QQ 1群：</a><a>148084317</a></p>
-            <p class="method"><a>莳萝籽工坊QQ 2群：</a><a>794845560</a></p>
-            <p class="method"><a>莳萝籽工坊QQ 3群：</a><a>724262577</a></p>
-            <p class="method"><a>莳萝籽工坊QQ 4群：</a><a>991541560</a></p>
-            <p class="method"><a>Arknights Only游客群：</a><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=BNDP5dgU-vzyGfT7zcvtdxxxDh5RGb3W&authKey=XxdP5MFJb1BsO419HRzDctlxdTr%2BAgzU2mDRNm3J%2B0R5J93JGtOk%2FTIXp%2B7ym8jX&noverify=0&group_code=689323985
-                " class="qqq">689323985</a></p>
-            <p class="method"><a>莳萝籽工坊招聘邮箱：</a><a href="mailto:hr@cuminstudio.com" class="mail">hr@cuminstudio.com</a>
-            </p>
         </div>
         <div id="pg3" style="display: none;">
-            <a id="title">莳萝籽工坊目前在招岗位如下</a>
-            <div class="Module">
-                <a>美术表现类</a>
-                <ul>
-                    <li>
-                        <a>画师 // 线上工作</a><br>
-                        <a>主要工作:周边柄图，展会用图</a><br>
-                        <a>年龄要求:16周岁以上</a><br>
-                        <a>无学历要求，允许兼职，接受实习。</a><br>
-                        <a>月薪2500起,上不封顶,成年正式员工提供五险一金(杭州缴纳)。</a><br>
-                        <a>请在发送简历时随简历提供您的作品。</a>
-                    </li>
-                    <li>
-                        <a>美工 // 线上工作</a><br>
-                        <a>主要工作:周边美工设计，展会美工设计。</a><br>
-                        <a>年龄要求:16周岁以上</a><br>
-                        <a>无学历要求，允许兼职，接受实习。</a><br>
-                        <a>月薪面议，成年正式员工提供五险一金(杭州缴纳)。</a><br>
-                        <a>请在发送简历时随简历提供您的作品。</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="Module">
-                <a>产品策划类</a>
-                <ul>
-                    <li>
-                        <a>文案 // 线上工作</a><br>
-                        <a>主要工作:周边宣图文案，展会活动文案。</a><br>
-                        <a>年龄要求:16周岁以上</a><br>
-                        <a>无学历要求，允许兼职，接受实习。</a><br>
-                        <a>月薪面议，成年正式员工提供五险一金(杭州缴纳)。</a><br>
-                        <a>请在发送简历时随简历提供您的作品。</a><br>
-                    </li>
-                </ul>
-            </div>
-            <div class="Module">
-                <a>发行市场类</a>
-                <ul>
-                    <li>
-                        <a>媒体运营 // 线上工作</a><br>
-                        <a>主要工作:运营B站和微博账号</a><br>
-                        <a>年龄要求:16周岁以上</a><br>
-                        <a>无学历要求，允许兼职，接受实习。</a><br>
-                        <a>月薪面议，成年正式员工提供五险一金(杭州缴纳)。</a><br>
-
-                    </li>
-                </ul>
-            </div>
-            <div class="Module">
-                <a>职能综合类</a>
-                <ul>
-                    <li>
-                        <a>行政文员 // 线上工作</a><br>
-                        <a>主要工作:协助行政管理</a><br>
-                        <a>年龄要求:16周岁以上</a><br>
-                        <a>无学历要求，允许兼职，接受实习。</a><br>
-                        <a>月薪面议，成年正式员工提供五险一金(杭州缴纳)。</a><br>
-                    </li>
-                </ul>
-            </div>
-            <a class="ps">请认真阅读岗位要求，随简历附带对应的信息。并将简历发往:hr@cuminstudio.com，莳萝籽工坊期待您的加入</a>
         </div>
     </main>
     <footer>
@@ -199,20 +157,20 @@
         </p>
     </footer>
     <script>
-       function index(){     
-            document.getElementById("pg1").style.display="";
-            document.getElementById("pg2").style.display="none";
-            document.getElementById("pg3").style.display="none";
+        function index() {
+            document.getElementById("pg1").style.display = "";
+            document.getElementById("pg2").style.display = "none";
+            document.getElementById("pg3").style.display = "none";
         }
-       function about(){     
-            document.getElementById("pg1").style.display="none";
-            document.getElementById("pg2").style.display="";
-            document.getElementById("pg3").style.display="none";
+        function about() {
+            document.getElementById("pg1").style.display = "none";
+            document.getElementById("pg2").style.display = "";
+            document.getElementById("pg3").style.display = "none";
         }
-       function join(){     
-            document.getElementById("pg1").style.display="none";
-            document.getElementById("pg2").style.display="none";
-            document.getElementById("pg3").style.display="";
+        function join() {
+            document.getElementById("pg1").style.display = "none";
+            document.getElementById("pg2").style.display = "none";
+            document.getElementById("pg3").style.display = "";
         }
     </script>
 </body>

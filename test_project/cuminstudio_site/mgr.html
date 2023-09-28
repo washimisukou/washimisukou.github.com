@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>莳萝籽工坊 &#8211; 有很多奇奇怪怪的想法，也在把理想搬进现实</title>
+  <meta name="title" content="cuminstudio">
+  <meta name="keywords" content="cuminstudio">
+  <meta name="author" content="">
+  <meta name="generator" content="Nv_PG">
+  <meta name="language" content="zh-CN">
+  <meta name="copyright" content="cuminstudio.com">
+  <meta name="designer" content="">
+  <meta name="publisher" content="cuminstudio">
+  <meta name="robots" content="No Index">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name='robots' content='max-image-preview:large' />
+  <link rel='dns-prefetch' href='//cuminstudio.com' />
+  <link rel="icon" href="./img/logo150.png" sizes="32x32" />
+  <link rel="icon" href="./img/logo300.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="./img/logo300.png" />
+  <meta content="./img/logo300.png" />
+  <link rel="stylesheet" type="text/css" href="./css/mgr.css">
+</head>
+
+<body>
+  <header>
+    <a href="./index.html">
+      <img src="./img/logo_MainPage2.png">
+    </a>
+    <nav>
+      <a href="./mgr.html">管理后台</a>
+      <a href="./editor.html">发布新帖</a>
+      <a href="./shop.html">商城</a>
+      <a href="./main.html">后台主页</a>
+      <a href="./index.html">首页</a>
+    </nav>
+  </header>
+  <main>
+    <div id="f_win">
+      <p>
+        <a id="f_win_title" class="Title"></a>
+        <a id="f_win_a1" class="tag"></a>
+        <input id="f_win_i1">
+        <!--0.原密码/1.新昵称/2.新用户名/3.新颜色/4.新TAG名-->
+        <a id="f_win_a2" class="tag"></a>
+        <input id="f_win_i2">
+        <!--0.新密码/2.新用户密码/4.新颜色-->
+        <a id="f_win_tips" class="Tips"></a>
+        <!--TIPS/提示-->
+        <a class="Button">确定</a><a class="Button" onclick='win()'>取消</a>
+      </p>
+    </div>
+    <p>
+      <a>账户管理</a><br>
+    <table>
+      <thead>
+        <tr>
+          <th>UID</th>
+          <th>用户名</th>
+          <th>昵称</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Admin</td>
+          <td>管理员</td>
+          <!--win(弹窗类型,数据)-->
+          <td><a onclick='win("editor_pw",1)'>改密</a><a onclick='win("editor_nk",1)'>改昵称</a><a
+              onclick='win("del_user",1)'>删除</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Admin2</td>
+          <td>周边组</td>
+          <td><a>改密</a><a>改昵称</a><a>删除</a></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Admin3</td>
+          <td>运维组</td>
+          <td><a>改密</a><a>改昵称</a><a>删除</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <a class="add_but" onclick='win("add_user")'>增加账户</a>
+    <!-- //弹窗提示增加账户
+            //修改昵称
+            //修改密码 -->
+    </p>
+    <p>
+      <a>Tag管理</a><br>
+    <table>
+      <thead>
+        <tr>
+          <th>TAG名</th>
+          <th>颜色</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>运营</td>
+          <td><input type="color" value="#ff0000" disabled /></td>
+          <td><a onclick='win("editor_tgn",1)'>编辑TAG名称</a><a onclick='win("editor_tgc",1)'>编辑颜色</a><a
+              onclick='win("del_tag",1)'>删除</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <a class="add_but" onclick='win("add_tag")'>增加TAG</a>
+    <!-- //弹窗增加TAG
+            //弹窗编辑颜色 -->
+
+    </p>
+  </main>
+  <footer>
+    <p>
+      <a href="./index.html">莳萝籽工坊</a>
+      <a>成立于2021年10月24日</a>
+
+    </p>
+    <p>
+      <a> 杭州莳萝籽文化创意有限<a href="./login.html">责任</a>公司©2021-2023</a>
+      <a href="https://beian.miit.gov.cn/">浙ICP备2022025497号-1</a>
+      <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33012702000458">浙公网安备33012702000458号</a>
+    </p>
+  </footer>
+</body>
+<script>
+  function win(type, data) {
+    if (type === "add_user") {
+      document.getElementById("f_win").style.display = "block";
+
+      document.getElementById("f_win_title").innerHTML = "新增用户";
+
+      document.getElementById("f_win_a1").innerHTML = "用户名";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "text";
+      document.getElementById("f_win_i1").style.display = "";
+
+      document.getElementById("f_win_a2").innerHTML = "密码";
+      document.getElementById("f_win_a2").style.display = "";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "text";
+      document.getElementById("f_win_i2").style.display = "";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+    }
+    else if (type === "del_user") {
+
+      document.getElementById("f_win").style.display = "block";
+
+      document.getElementById("f_win_title").innerHTML = "删除用户(UID:"+")? <br>警告，此操作无法恢复!";
+      
+      document.getElementById("f_win_a1").innerHTML = "";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "text";
+      document.getElementById("f_win_i1").style.display = "none";
+
+      document.getElementById("f_win_a2").innerHTML = "";
+      document.getElementById("f_win_a2").style.display = "";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "text";
+      document.getElementById("f_win_i2").style.display = "none";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+    }
+    else if (type === "editor_pw") {
+      document.getElementById("f_win").style.display = "block";
+
+      document.getElementById("f_win_title").innerHTML = "修改密码";
+
+      document.getElementById("f_win_a1").innerHTML = "原密码";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "text";
+      document.getElementById("f_win_i1").style.display = "";
+
+      document.getElementById("f_win_a2").innerHTML = "新密码";
+      document.getElementById("f_win_a2").style.display = "";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "text";
+      document.getElementById("f_win_i2").style.display = "";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+    }
+    else if (type === "editor_nk") {
+      document.getElementById("f_win").style.display = "block";
+
+      document.getElementById("f_win_title").innerHTML = "更改用户昵称";
+
+      document.getElementById("f_win_a1").innerHTML = "新昵称";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "text";
+      document.getElementById("f_win_i1").style.display = "";
+
+      document.getElementById("f_win_a2").innerHTML = "";
+      document.getElementById("f_win_a2").style.display = "none";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "text";
+      document.getElementById("f_win_i2").style.display = "none";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+    }
+    else if (type === "add_tag") {
+      document.getElementById("f_win").style.display = "block";
+
+      document.getElementById("f_win_title").innerHTML = "增加TAG";
+
+      document.getElementById("f_win_a1").innerHTML = "Tag名称";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "text";
+      document.getElementById("f_win_i1").style.display = "";
+
+      document.getElementById("f_win_a2").innerHTML = "Tag颜色";
+      document.getElementById("f_win_a2").style.display = "";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "color";
+      document.getElementById("f_win_i2").style.display = "";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+    }
+    else if (type === "del_tag") {
+
+      document.getElementById("f_win").style.display = "block";
+
+      document.getElementById("f_win_title").innerHTML = "删除TAG:" + "?<br> 警告，此操作无法恢复!";
+
+      document.getElementById("f_win_a1").innerHTML = "";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "text";
+      document.getElementById("f_win_i1").style.display = "none";
+
+      document.getElementById("f_win_a2").innerHTML = "";
+      document.getElementById("f_win_a2").style.display = "";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "text";
+      document.getElementById("f_win_i2").style.display = "none";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+    }
+    else if (type === "editor_tgn") {
+      document.getElementById("f_win").style.display = "block";
+
+      document.getElementById("f_win_title").innerHTML = "更改TAG名称";
+
+      document.getElementById("f_win_a1").innerHTML = "新TAG名称";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "text";
+      document.getElementById("f_win_i1").style.display = "";
+
+      document.getElementById("f_win_a2").innerHTML = "";
+      document.getElementById("f_win_a2").style.display = "none";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "text";
+      document.getElementById("f_win_i2").style.display = "none";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+    }
+    else if (type === "editor_tgc") {
+      document.getElementById("f_win").style.display = "block";
+
+      document.getElementById("f_win_title").innerHTML = "修改TAG颜色";
+
+      document.getElementById("f_win_a1").innerHTML = "新TAG颜色";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "color";
+      document.getElementById("f_win_i1").style.display = "";
+
+      document.getElementById("f_win_a2").innerHTML = "";
+      document.getElementById("f_win_a2").style.display = "none";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "text";
+      document.getElementById("f_win_i2").style.display = "none";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+    }
+    else {
+
+      document.getElementById("f_win_title").innerHTML = "";
+
+      document.getElementById("f_win_a1").innerHTML = "";
+      document.getElementById("f_win_a1").style.display = "";
+
+      document.getElementById("f_win_i1").value = "";
+      document.getElementById("f_win_i1").type = "text";
+      document.getElementById("f_win_i1").style.display = "";
+
+      document.getElementById("f_win_a2").innerHTML = "";
+      document.getElementById("f_win_a2").style.display = "";
+
+      document.getElementById("f_win_i2").value = "";
+      document.getElementById("f_win_i2").type = "text";
+      document.getElementById("f_win_i2").style.display = "";
+
+      document.getElementById("f_win_tips").innerHTML = "";
+      document.getElementById("f_win_tips").style.display = "none";
+      document.getElementById("f_win").style.display = "none";
+    }
+  }
+</script>
+
+</html>

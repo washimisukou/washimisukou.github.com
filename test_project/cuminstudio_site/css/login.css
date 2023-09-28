@@ -1,0 +1,157 @@
+html,
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #8d8d8d;
+}
+header,
+footer {
+    width: 100%;
+    min-width: 390px;
+    background-color: rgb(234, 234, 234);
+    z-index: 99;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    top: 0;
+    height: 120px;
+    position: relative;
+}
+
+
+header>a,
+img {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+header>a {
+    margin: 0px 5px;
+}
+
+header>nav {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+header>a>img {
+    width: auto;
+    height: 100%;
+    float: left;
+    max-width: 360px;
+    z-index: 97;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+header>nav>a {
+    padding: 20px 10px;
+    float: right;
+    font-weight: bold;
+    z-index: 98;
+    position: relative;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+footer {
+    bottom: 0;
+    height: auto;
+    position: absolute;
+}
+
+footer>p {
+    margin: 10px 2%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    header>a>img {
+        opacity: 0.05;
+    }
+
+    .post_img {
+        opacity: 0;
+    }
+}
+
+main {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+:any-link {
+    color: black;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+
+main>form {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 266px;
+    height: 380px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 25px;
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.2);
+}
+
+main>form>img {
+    width: 256px;
+    height: auto;
+}
+main>form>p {
+    margin: 5px;
+}
+main>form>p>input {
+    margin: 0px;
+    min-height: 25px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 250.4px;
+    height: auto;
+}
+main>form>button {
+    max-width: 256px;
+    min-height: 25px;
+    width: 100%;
+    height: auto;
+    left: 5px;
+    position: relative; 
+}
+a#err_pri {
+        display: none;
+        height: 15px;
+        position: fixed;
+        z-index: 99;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        background-color: #f54d4d;
+        padding: 20px;
+        width: 225px;
+        opacity: 0.9;
+        color: white;
+    }

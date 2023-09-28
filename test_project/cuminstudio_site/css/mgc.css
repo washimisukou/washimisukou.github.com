@@ -100,11 +100,26 @@ main {
 
 .post_img {
     display: inline-block;
-    width: 98%;
+    width: 94%;
     z-index: 30;
     padding: 5px;
 }
-
+.post_editor {
+    width: 100%;
+}
+.post_editor > p {
+    display: inline-block;
+    width: 98%;
+    margin: 0px;
+    padding: 0px;
+}
+.post_editor > p > a {
+    float: right;
+    padding: 35px 5px;
+    background-color: #494949;
+    font-size: larger;
+    color: white;
+}
 .post_img>img {
     float: right;
     width: 180px;
@@ -135,7 +150,7 @@ main {
     font-weight: bold;
     margin: 20px;
 }
-.ps{
+#ps{
     text-align: center;
     display: block;
     margin: 20px;
