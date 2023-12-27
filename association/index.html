@@ -40,6 +40,58 @@
     </section>
     <section class="section S2" id="S2">
         <h2>活动预告</h2>
+        <ul>
+            <li><a class="s2_top">
+                    浪起xACG<br>
+                    23.08.05<br><br>
+                    参展确定！
+                </a></li>
+            <li><a class="s2_button">
+                    子鱼SP 1th<br>
+                    23.08.12<br><br>
+                    参展确定
+                </a></li>
+            <li><a class="s2_top">
+                    子鱼 7th<br>
+                    23.09.29<br><br>
+                    参展确定！
+                </a></li>
+            <li><a class="s2_button">
+                    迷鹿 3th<br>
+                    23.09.30<br><br>
+                    参展确定！
+                </a></li>
+            <li><a class="s2_top">
+                    TAXI 1th<br>
+                    23.10.28<br><br>
+                    参展确定！
+                </a></li>
+            <li><a class="s2_button">
+                    ANE 1th<br>
+                    23.11.11<br><br>
+                    参展确定！
+                </a></li>
+            <li><a class="s2_top">
+                    子鱼SP 2th<br>
+                    23.11.18<br><br>
+                    参展确定！
+                </a></li>
+            <li><a class="s2_button">
+                    极潮<br>
+                    23.12.15<br><br>
+                    参展确定！
+                </a></li>
+            <li><a class="s2_top">
+                    ANE 年终盛典<br>
+                    23.12.30<br><br>
+                    参展确定！
+                </a></li>
+            <li><a class="s2_button">
+                    TAXI 2th<br>
+                    24.02.24<br><br>
+                    参展确定！
+                </a></li>
+        </ul>
     </section>
     <section class="section S3" id="S3">
         <img class="img_gray_top" src="./images/gray.jpg">
@@ -110,7 +162,7 @@
                 <a>爱发电主页</a>
             </li>
             <li>
-                <a href="http://weixin.qq.com/r/KEWMlAzE1FGrrUj39xA6">公众号</a>
+                <a href="">公众号</a>
             </li>
             <li>
                 <a>Steam<br>发行商<br>主页</a>
@@ -245,7 +297,7 @@
         }
 
         .S2 {
-            background-image: url(./images/bg4.jpg);
+            background-image: url(./images/bg41.jpg);
         }
 
         .S2 h2 {
@@ -254,6 +306,98 @@
             padding: 30px;
             font-size: xxx-large;
         }
+
+        .S2 ul {
+            overflow-x: auto;
+            width: auto;
+            height: 76.5%;
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-top: 48px;
+        }
+
+        .S2 ul li {
+            margin-left: 20px;
+            /* 每个li设置间距为20px  */
+            display: inline-block;
+            flex: auto;
+            /* 让所有的li在一行 注意这里不能用float:left因为设置float后里超过一屏后会自动换行 */
+        }
+
+        .s2_top {
+            width: 140px;
+            height: 140px;
+            padding: 30px;
+            position: relative;
+            margin: 20px 20px;
+            border: 2px solid #00000094;
+            border-radius: 15px;
+            background-color: #ffffff8f;
+            float: left;
+        }
+
+        .s2_top::before {
+            content: '';
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-top-color: #00000094;
+            position: absolute;
+            top: 0;
+            left: 20%;
+            margin-top: 200px;
+        }
+
+        .s2_top::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-top-color: #ffffff8f;
+            position: absolute;
+            top: 0;
+            left: 20.8%;
+            margin-top: 200px;
+        }
+
+        .s2_button {
+            width: 140px;
+            height: 140px;
+            padding: 30px;
+            position: relative;
+            margin: 20px 20px;
+            border: 2px solid #00000094;
+            border-radius: 15px;
+            background-color: #ffffff8f;
+            float: left;
+        }
+
+        .s2_button::before {
+            content: '';
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-bottom-color: #00000094;
+            position: absolute;
+            top: 0;
+            right: 20%;
+            margin-top: -40px;
+        }
+
+        .s2_button::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border: 18px solid transparent;
+            border-bottom-color: #ffffff8f;
+            position: absolute;
+            top: 0;
+            right: 20.8%;
+            margin-top: -34.5px;
+        }
+
         .S3 {
             background-image: url(./images/bg5.jpg);
         }
@@ -333,10 +477,11 @@
             border: 1px solid white;
         }
 
-        .S4 ul li a{
+        .S4 ul li a {
             text-decoration: unset;
             color: black;
         }
+
         .S5 {
             background-image: url(./images/bg7.jpg);
         }
@@ -414,6 +559,19 @@
                 font-size: 60px;
             }
 
+            .S2 ul {
+                height: 90%;
+            }
+
+            .S2 ul li a {
+                width: 250px;
+                height: 250px;
+                font-size: 2.5em;
+                margin: 130px 60px;
+            }
+            .s2_top::after,.s2_top::before {
+                top: 110px;
+            }
             .S3 .dev_grid {
                 height: 90%;
             }
