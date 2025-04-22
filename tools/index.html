@@ -2,35 +2,9 @@
 <html>
 
 <head>
-    <script>
-        function updateDisplay() {
-            const input = document.getElementById('password').value;
-            const now = new Date();
-            // 获取当前四位时间（小时两位+分钟两位）[[9]]
-            const currentTime =
-                String(now.getHours()).padStart(2, '0') +
-                String(now.getMinutes()).padStart(2, '0');
-            if (input.length === 4 && !isNaN(input)) {
-                const result = (input * 10000) - 43210000 + parseInt(currentTime);
-                document.getElementById('output').textContent = result;
-            }
-            else {
-                document.getElementById('output').textContent = '请输入4位数字';
-            }
-        }
-        function updateDisplay2() {
-            const input = document.getElementById('old_password').value;
-            if (input.length === 4 && !isNaN(input)) {
-                const result = parseInt(input) + 1234;
-                document.getElementById('output2').textContent = result;
-            }
-            else {
-                document.getElementById('output2').textContent = '请输入4位数字';
-            }
-        }
-    </script>
     <style>
-        html,body {
+        html,
+        body {
             width: 100%;
             height: 100%;
             margin: 0px;
@@ -38,19 +12,31 @@
             border: 0px;
             font-size: 20px;
         }
+        p {
+            margin: 0em;
+        }
+        .dev {
+            opacity: 0.3;
+        }
         .tools {
             text-align: center;
             width: auto;
             margin: 10px;
         }
 
-        .tools input,a {
+        .tools input,
+        a {
             height: calc(10vw+10vh)/2;
         }
     </style>
 </head>
 
 <body>
+    <div class="dev">
+        <p id="resolution">显示大小：<span id="screenSize"></span></p>
+        <p id="windowSize">窗口大小：<span id="windowSizeValue"></span></p>
+        <p id="contentSize">页面大小：<span id="contentSizeValue"></span></p>
+    </div>
     <div class="tools">
         <p><a>新版密码计算</a></p>
         <input type="text" id="password" maxlength="4" placeholder="输入4位数字"
@@ -62,5 +48,60 @@
         <p><a id="output2">----</a></p>
     </div>
 </body>
+<footer>
+</footer>
+<script>
+    function updateDisplay() {
+        const input = document.getElementById('password').value;
+        const now = new Date();
+        // 获取当前四位时间（小时两位+分钟两位）[[9]]
+        const currentTime =
+            String(now.getHours()).padStart(2, '0') +
+            String(now.getMinutes()).padStart(2, '0');
+        if (input.length === 4 && !isNaN(input)) {
+            const result = (input * 10000) - 43210000 + parseInt(currentTime);
+            document.getElementById('output').textContent = result;
+        }
+        else {
+            document.getElementById('output').textContent = '请输入4位数字';
+        }
+    }
+    function updateDisplay2() {
+        const input = document.getElementById('old_password').value;
+        if (input.length === 4 && !isNaN(input)) {
+            const result = parseInt(input) + 1234;
+            document.getElementById('output2').textContent = result;
+        }
+        else {
+            document.getElementById('output2').textContent = '请输入4位数字';
+        }
+    }
+</script>
+<script>
+    // 显示器分辨率
+    function Display_Size() {
+        document.getElementById('screenSize').textContent =
+            screen.width + "X" + screen.height;
+    }
+    // 浏览器窗口大小
+    function Window_Size() {
+        document.getElementById('windowSizeValue').textContent =
+            window.innerWidth + "X" + window.innerHeight;
+    }
+    // 页面内容大小
+    function Page_Size() {
+        const contentWidth = document.documentElement.scrollWidth;
+        const contentHeight = document.documentElement.scrollHeight;
+        document.getElementById('contentSizeValue').textContent =
+            contentWidth + "X" + contentHeight;
+    }
+    function updateSizes() {
+        Display_Size();
+        Window_Size();
+        Page_Size();
+    }
+    window.onload(updateSizes());
+    window.addEventListener('resize', updateSizes);
+</script>
 
 </html>
