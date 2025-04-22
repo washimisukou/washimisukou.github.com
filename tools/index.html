@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function updateDisplay() {
+            const input = document.getElementById('password').value;
+            const now = new Date();
+            // 获取当前四位时间（小时两位+分钟两位）[[9]]
+            const currentTime =
+                String(now.getHours()).padStart(2, '0') +
+                String(now.getMinutes()).padStart(2, '0');
+            if (input.length === 4 && !isNaN(input)) {
+                const result = (input * 10000) - 43210000 + parseInt(currentTime);
+                document.getElementById('output').textContent = result;
+            }
+            else {
+                document.getElementById('output').textContent = '请输入4位数字';
+            }
+        }
+        function updateDisplay2() {
+            const input = document.getElementById('old_password').value;
+            if (input.length === 4 && !isNaN(input)) {
+                const result = parseInt(input) + 1234;
+                document.getElementById('output2').textContent = result;
+            }
+            else {
+                document.getElementById('output2').textContent = '请输入4位数字';
+            }
+        }
+    </script>
+    <style>
+        .tools {
+            text-align: center;
+            width: auto;
+            margin: 10px;
+        }
+
+        .tools input,
+        a {
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tools">
+        <p><a>新版密码计算</a></p>
+        <input type="text" id="password" maxlength="4" placeholder="输入4位数字"
+            oninput="this.value=this.value.replace(/\D/g,''); updateDisplay()">
+        <p><a id="output">----</a></p>
+        <p><a>旧版密码计算</a></p>
+        <input type="text" id="old_password" maxlength="4" placeholder="输入4位数字"
+            oninput="this.value=this.value.replace(/\D/g,''); updateDisplay2()">
+        <p><a id="output2">----</a></p>
+    </div>
+</body>
+
+</html>
