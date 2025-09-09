@@ -1,0 +1,12 @@
+{
+  "waila:core": true,
+  "waila:vanilla": true,
+  "waila:harvest": true,
+  "waila:extra": true,
+  "waila:forge": true,
+  "biomeswevegone:plugin": true,
+  "balm:wthit": true,
+  "waystones:plugin": true,
+  "ubesdelight:plugin": true,
+  "ae2:wthit": true
+}

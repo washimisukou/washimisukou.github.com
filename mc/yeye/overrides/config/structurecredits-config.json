@@ -1,0 +1,26 @@
+{
+  "active": true,
+  "showOnlyOneTime": true,
+  "chatMessage": false,
+  "showCreator": true,
+  "customStructureName": {
+    "minecraft:swamp_hut": "a_cat:cat_hut"
+  },
+  "dontShowAll": [
+    "minecraft:",
+    "dimdungeons:"
+  ],
+  "dontShow": [
+    "minecraft:plains_village",
+    "minecraft:desert_village",
+    "biomeswevegone:village/forgotten",
+    "repurposed_structures:village_cherry",
+    "integrated_villages:tavern_village",
+    "biomeswevegone:village/skyris",
+    "biomeswevegone:village/pumpkin_patch",
+    "biomeswevegone:large_cold_lake",
+    "repurposed_structures:village_oak",
+    "repurposed_structures:village_jungle",
+    "repurposed_structures:village_ocean"
+  ]
+}
