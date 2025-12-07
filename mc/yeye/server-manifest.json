@@ -1,0 +1,2659 @@
+{
+  "name": "Nsw_YeYe_1.20.1_Pro_Plus_Max",
+  "author": "Moke",
+  "version": "1.0",
+  "description": "",
+  "fileApi": "http://www.vwark.com/mc/yeye",
+  "files": [
+    {
+      "path": "config/achievement_optimizer/Achievement-Optimizer.toml",
+      "hash": "d8f79bdea1ebd3859b783cb4ad86902a394ef2b2"
+    },
+    {
+      "path": "config/addonslib-common.toml",
+      "hash": "95cfbb2e53a067f307cfd99ad6f91140fef4afec"
+    },
+    {
+      "path": "config/ae2/client.json",
+      "hash": "97831916974ee142d0d2d4ff8842df3cdbc4af16"
+    },
+    {
+      "path": "config/ae2/common.json",
+      "hash": "39aa7d032dbc65f5b8798fe67e1db2a531b52ba1"
+    },
+    {
+      "path": "config/aotake_sweep-common.toml",
+      "hash": "5e13f908b52b9a6ae8c9a732ffe8c1c944961a9e"
+    },
+    {
+      "path": "config/atmospheric-common.toml",
+      "hash": "642a395b14b3c82528d25d42d7d8d845b831946c"
+    },
+    {
+      "path": "config/autumnity-common.toml",
+      "hash": "3e1beb2437f4a6268e5bfae0294f7c49169b1cb8"
+    },
+    {
+      "path": "config/balm-client.toml",
+      "hash": "7ce375130f5964ea8484cb7577845e35390aaf72"
+    },
+    {
+      "path": "config/balm-common-1.toml.bak",
+      "hash": "7ce375130f5964ea8484cb7577845e35390aaf72"
+    },
+    {
+      "path": "config/balm-common.toml",
+      "hash": "7ce375130f5964ea8484cb7577845e35390aaf72"
+    },
+    {
+      "path": "config/bcc-common.toml",
+      "hash": "5fa25534f5982d7cc1b50c2fe84936b996b857bd"
+    },
+    {
+      "path": "config/betteranimationscollection-client.toml",
+      "hash": "ec79ec6bca34667698170beed40cf762696ac9fa"
+    },
+    {
+      "path": "config/bettercaves/forge-1_20_1/liquidregions.json",
+      "hash": "12fa57a7462fec82c64dc30c0a40a9747f995671"
+    },
+    {
+      "path": "config/bettercaves/forge-1_20_1/README.txt",
+      "hash": "f0f0630195b032113e179b47e27803fc2174ef1e"
+    },
+    {
+      "path": "config/bettercaves/README.txt",
+      "hash": "3c98cdf993a30712d4a0c6a008845a61ca8915b9"
+    },
+    {
+      "path": "config/betterdeserttemples/forge-1_20/armorstands.json",
+      "hash": "caa52263d2aadcd3f2421986a6d950a5aa38069c"
+    },
+    {
+      "path": "config/betterdeserttemples/forge-1_20/itemframes.json",
+      "hash": "7dfe92c1ae7c5f9ddb739b7c73c9c12ee398f19e"
+    },
+    {
+      "path": "config/betterdeserttemples/forge-1_20/README.txt",
+      "hash": "80a9d927f4978590ec21d5ae2e2a8e68b16f3277"
+    },
+    {
+      "path": "config/betterdeserttemples/README.txt",
+      "hash": "e9aa15b807f311961f737cd9c19fcf1028a69de3"
+    },
+    {
+      "path": "config/betterdeserttemples-forge-1_20.toml",
+      "hash": "cc443df38afa1ac81089dcf97513d6e72ada8f53"
+    },
+    {
+      "path": "config/betterdungeons-forge-1_20.toml",
+      "hash": "84c0684cbd0745015f8a3e743d49e7b153ef555f"
+    },
+    {
+      "path": "config/betterendisland-forge-1_20.toml",
+      "hash": "fb3f32b91838fc1a59cd872e197b73030c1b618a"
+    },
+    {
+      "path": "config/betterfortresses/forge-1_20/itemframes.json",
+      "hash": "d6697d602f2e5910d442d04920bea4e489f740f0"
+    },
+    {
+      "path": "config/betterfortresses/forge-1_20/README.txt",
+      "hash": "abaeda3856b09c5dd80e1b5ada9aaf171d038995"
+    },
+    {
+      "path": "config/betterfortresses/README.txt",
+      "hash": "47114a7baec2e0322dab1c88424d43c58c2e756a"
+    },
+    {
+      "path": "config/betterfortresses-forge-1_20.toml",
+      "hash": "936c1a76752bd191fb9d6c80904073e2a18e1ee5"
+    },
+    {
+      "path": "config/betterjungletemples-forge-1_20.toml",
+      "hash": "7a91df151c152a68e1c76deee2290187ce50a974"
+    },
+    {
+      "path": "config/betteroceanmonuments-forge-1_20.toml",
+      "hash": "aa643542a9b54bcc7ecbb3a5a910b5fe4770d5c8"
+    },
+    {
+      "path": "config/betterpingdisplay-client.toml",
+      "hash": "3c389c6e4f50199bec067b8b83c3ed59321cb675"
+    },
+    {
+      "path": "config/betterstrongholds/forge-1_20/armorstands.json",
+      "hash": "d441c0cf379e8b2210c288d9b4816293e4b11c09"
+    },
+    {
+      "path": "config/betterstrongholds/forge-1_20/itemframes.json",
+      "hash": "f83dcc4d887d9532ffc9914621ecd868937df6d8"
+    },
+    {
+      "path": "config/betterstrongholds/forge-1_20/ores.json",
+      "hash": "086d64842ec5eb3f68274a42621574624c15f0da"
+    },
+    {
+      "path": "config/betterstrongholds/forge-1_20/rareblocks.json",
+      "hash": "eb635c11d6cacf18d5220d643c31833bf7b0d9c3"
+    },
+    {
+      "path": "config/betterstrongholds/forge-1_20/README.txt",
+      "hash": "ee9c20aeefab7187288a4289d129a3155efa5823"
+    },
+    {
+      "path": "config/betterstrongholds/README.txt",
+      "hash": "cc2cfb4e58d5ef7e29795acce86899d5fd1cce10"
+    },
+    {
+      "path": "config/betterstrongholds-forge-1_20.toml",
+      "hash": "f53e115280fc224ab07de692a62ec5797fdba2a6"
+    },
+    {
+      "path": "config/betterwitchhuts-forge-1_20.toml",
+      "hash": "b0ca5851ba8d18b60afbade88afcea9a01141a27"
+    },
+    {
+      "path": "config/biolith/general.json",
+      "hash": "f494e95f7fea9ead09cc5f42483a2178e0a786dc"
+    },
+    {
+      "path": "config/biomemakeover.json",
+      "hash": "4b0e7ca0587ce790138b52ffe03dca3be679e91d"
+    },
+    {
+      "path": "config/biomesoplenty/biome_toggles.json",
+      "hash": "885806fc70ad4767f35378cbbd4894d4adca0fba"
+    },
+    {
+      "path": "config/biomesoplenty/gameplay.toml",
+      "hash": "612ef6f19efdbf8a0fa809f9227e13c4eb0757f9"
+    },
+    {
+      "path": "config/biomesoplenty/generation.toml",
+      "hash": "eba0e4cbd8f1af0ca7c91c21a5fa95f01a6fbf8c"
+    },
+    {
+      "path": "config/biomeswevegone/mob_spawn.json",
+      "hash": "07e249aa403139f9f8050a01742ff5e16848282e"
+    },
+    {
+      "path": "config/biomeswevegone/trades.json",
+      "hash": "17b020f037c64fb06acede658ba1ad0fb3aefcc2"
+    },
+    {
+      "path": "config/biomeswevegone/world_generation.json5",
+      "hash": "366ca2152f493cc045861ce4de1ccd5c1ff7b06e"
+    },
+    {
+      "path": "config/blueprint-client.toml",
+      "hash": "3956f3e3d14a7dd2e955c14352b0f873290e07d1"
+    },
+    {
+      "path": "config/blueprint-common.toml",
+      "hash": "a710ec24b1e1c4a3ca3c153e140fd05238f9d9b4"
+    },
+    {
+      "path": "config/c2me.toml",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "config/carryon-client.toml",
+      "hash": "9fb9fbd6e6ec34a8f19e6a1e3adc113119448bec"
+    },
+    {
+      "path": "config/carryon-common.toml",
+      "hash": "d091d3a1dd77efc1dfe683b5142fba2ed2bf1c7e"
+    },
+    {
+      "path": "config/chunky/config.json",
+      "hash": "a8157f2e1e649b891aaccb8ec83d38c84429c82a"
+    },
+    {
+      "path": "config/collective.json5",
+      "hash": "dd275eba23d25c50bea5ca96f5243ec1782fc435"
+    },
+    {
+      "path": "config/copycats-client.toml",
+      "hash": "e113d0d36c8005058d3458f3127172958922f26c"
+    },
+    {
+      "path": "config/copycats-common.toml",
+      "hash": "ae937ec10a37aa60cd5e5013ee23fd7957ea0548"
+    },
+    {
+      "path": "config/corgilib/announcement_config.json5",
+      "hash": "d8cae15454eb34eed393b769633140d2896b2750"
+    },
+    {
+      "path": "config/crabbersdelight-common.toml",
+      "hash": "b4abe8d4b39dc51fa97c8b45144cd7c2e2406228"
+    },
+    {
+      "path": "config/create-client.toml",
+      "hash": "f0e3b28d365068349fb5c06215da6f76dfd4497c"
+    },
+    {
+      "path": "config/create-common.toml",
+      "hash": "41cda6916fe6ee82d14411d094f884862ef2b3de"
+    },
+    {
+      "path": "config/creategeography-common.toml",
+      "hash": "167e0ebf8173c4a2f98e0be8c887de5d1da640d0"
+    },
+    {
+      "path": "config/createnuclear-common.toml",
+      "hash": "121d4d19194f89e22b33346025930229a6e42ede"
+    },
+    {
+      "path": "config/createoreexcavation-common.toml",
+      "hash": "34bbeb20bd0b3c2fff47b5d8a63d42ece37ee3d5"
+    },
+    {
+      "path": "config/createrailwaysnavigator-client.toml",
+      "hash": "f5bd8e8633554e0eef62c85aed522eaf851611a4"
+    },
+    {
+      "path": "config/createrailwaysnavigator-common.toml",
+      "hash": "2b7a27d49fc24ff0167ce9040e01105d693741b9"
+    },
+    {
+      "path": "config/create_central_kitchen-common.toml",
+      "hash": "965af08f84a466010283df1dabdddb9b35957599"
+    },
+    {
+      "path": "config/create_connected-common.toml",
+      "hash": "f18e32acc7dd19090285b31202274fdd9f0bffa9"
+    },
+    {
+      "path": "config/create_new_age-client.toml",
+      "hash": "496d11b4d81138333a0dc9bc8cf12689e5626eea"
+    },
+    {
+      "path": "config/create_new_age-common.toml",
+      "hash": "a1d27e09a45ec5e505f2dd67768109711bcd57b7"
+    },
+    {
+      "path": "config/croptopia/croptopia_v3.conf",
+      "hash": "a3a169e965e930718205218cfec556a996d76d80"
+    },
+    {
+      "path": "config/crop_marker.json",
+      "hash": "b2f99dd2e08d107bfa53f57b773d06153950fc38"
+    },
+    {
+      "path": "config/cuisinedelight-client.toml",
+      "hash": "3332b3d82c2744bc6d2820f2d6d9e42bd7b6d15c"
+    },
+    {
+      "path": "config/cuisinedelight-common.toml",
+      "hash": "013c38e6dfc2976a69d2fc7977f86e4212062730"
+    },
+    {
+      "path": "config/delightful-common.toml",
+      "hash": "6c70a4243e97191f8694c7aa00427e4f564ee7bd"
+    },
+    {
+      "path": "config/despawntweaks-common.toml",
+      "hash": "09f93034bd7bb945e1c5a936f25a32c6c6ed3203"
+    },
+    {
+      "path": "config/dragonlib-common.toml",
+      "hash": "5d612387272c799a392d31e063de9dbfe4d46018"
+    },
+    {
+      "path": "config/dungeonsdelight-client-config.toml",
+      "hash": "647eabbe81d3088de7e8fbebeaf6927e2e43cc97"
+    },
+    {
+      "path": "config/dungeonsdelight-config.toml",
+      "hash": "d37a6696c36730addc0c194ed6b5b67d84cedb28"
+    },
+    {
+      "path": "config/embeddium-fingerprint.json",
+      "hash": "ed4c6cc63c11bb9385d6b2b80da608b367c6b07f"
+    },
+    {
+      "path": "config/embeddium-mixins.properties",
+      "hash": "a729ee50d18cf2204ff9fc33bc21641d55185c88"
+    },
+    {
+      "path": "config/embeddium-options.json",
+      "hash": "c46718c2b687959e2f8f7c46ba64eb2b7413a80d"
+    },
+    {
+      "path": "config/emi.css",
+      "hash": "7c5135a0715e70e022a3b7347702375acb1d00cb"
+    },
+    {
+      "path": "config/ends_delight-common.toml",
+      "hash": "bc66c282aa6d3bf378186b296d048662e07b48bc"
+    },
+    {
+      "path": "config/entityculling.json",
+      "hash": "b7fc83520269183bd6429c20f5d02539b939fbdb"
+    },
+    {
+      "path": "config/environmental-client.toml",
+      "hash": "ec9a9847cd5ebd542137dd97bf75c2ec386ef116"
+    },
+    {
+      "path": "config/environmental-common.toml",
+      "hash": "248b432e0473c96f0483ab67b9acb52f39cabc8a"
+    },
+    {
+      "path": "config/fabric/indigo-renderer.properties",
+      "hash": "8717363d9fe276a4465a05fcfb9fae5efb320556"
+    },
+    {
+      "path": "config/fallingtree.json",
+      "hash": "451006bfc2896c517edeeb0814af55721be8377c"
+    },
+    {
+      "path": "config/fancymenu/customizablemenus.txt",
+      "hash": "17448fdc6b8e32382c01b752a2b06d063e9aba96"
+    },
+    {
+      "path": "config/fancymenu/custom_gui_screens.txt",
+      "hash": "50b4602527a4e3cfea6016ec001f3b68ace1d65c"
+    },
+    {
+      "path": "config/fancymenu/legacy_checklist.txt",
+      "hash": "f1569161a6ad24cc61b02dece317ea16e351ff1e"
+    },
+    {
+      "path": "config/fancymenu/options.txt",
+      "hash": "109e40220688e8302749b42f1cb5378178d42b12"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark.json",
+      "hash": "6c4a7a9a509c3b81c62a497c4cb53a3eddf61219"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light.json",
+      "hash": "fb42def9e33a2792c19002a717318ec733283e8d"
+    },
+    {
+      "path": "config/fancymenu/user_variables.db",
+      "hash": "b41f9d7688944b0d96eaa089a5a5bb74af28d258"
+    },
+    {
+      "path": "config/farmersdelight-client.toml",
+      "hash": "7109adf50788f4bf5797dd3809ad0dc923c8f023"
+    },
+    {
+      "path": "config/farmersdelight-common.toml",
+      "hash": "66e1beb4f05953c76367f6a072be77ba98604e2c"
+    },
+    {
+      "path": "config/fastquit.toml",
+      "hash": "1191a69ea53b19bbf99df2f779fecdb1c96ceb8e"
+    },
+    {
+      "path": "config/ferritecore-mixin.toml",
+      "hash": "bada32b53873ce4121ffefb82ca804c94aef2e0b"
+    },
+    {
+      "path": "config/flywheel-client.toml",
+      "hash": "c1a99dffc9f1408d835ae555cef3994d9c82fbbb"
+    },
+    {
+      "path": "config/fml.toml",
+      "hash": "5850d014d8cc0cb6e529a9630398080506f90262"
+    },
+    {
+      "path": "config/forge-client.toml",
+      "hash": "55e80f51f0c9cf66de1f95c4d775b24dc59627a1"
+    },
+    {
+      "path": "config/fruitsdelight-common.toml",
+      "hash": "bafd5dd9db9919d2ae5989df4c7a4f133cfa45fe"
+    },
+    {
+      "path": "config/gravestone-client.toml",
+      "hash": "ddc101ce6f1f93f76645afb9cbe25f0469289130"
+    },
+    {
+      "path": "config/graveyard/the-graveyard-3.0-config.json5",
+      "hash": "f262ee8e5f1a7a834a9a4c50d4d6596902bc4a48"
+    },
+    {
+      "path": "config/guardvillagers-client.toml",
+      "hash": "894db650b2d756de183d219b991d884eaf4a8bbe"
+    },
+    {
+      "path": "config/guardvillagers-common-1.toml.bak",
+      "hash": "8d7ca420efea0e53cd548e8ad20b40b5d589920b"
+    },
+    {
+      "path": "config/guardvillagers-common.toml",
+      "hash": "8d7ca420efea0e53cd548e8ad20b40b5d589920b"
+    },
+    {
+      "path": "config/guideme.toml",
+      "hash": "41a7255afa21dd57cb445c74e6ce7dbfcccd7fa4"
+    },
+    {
+      "path": "config/ias.json",
+      "hash": "2ca8dd996d6cca2357b3e4ff662e36280c17310b"
+    },
+    {
+      "path": "config/imblocker.json",
+      "hash": "03b03dc8fba49c10c2ec05f26cbaff9b8a938c6e"
+    },
+    {
+      "path": "config/immersive_optimization.json",
+      "hash": "d4640954723402deb08032d0c8072911549fd793"
+    },
+    {
+      "path": "config/integrated_villages-forge-1_20.toml",
+      "hash": "a0e9f001ff0ce0b672ad0e563b5d9f7010177e14"
+    },
+    {
+      "path": "config/jeed-client.toml",
+      "hash": "c3dd867e2224ad16fc5812a2597405456eef4b13"
+    },
+    {
+      "path": "config/jei/blacklist.cfg",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "config/jei/jei-client.ini",
+      "hash": "984de2f677016ffe7019b4233492dbb1afd4dcb6"
+    },
+    {
+      "path": "config/jei/jei-colors.ini",
+      "hash": "a9467c371d970f3bb88284e5878460e052589fc1"
+    },
+    {
+      "path": "config/jei/jei-debug.ini",
+      "hash": "f9bc860103810eed50e7e116dd960c2cb961f55e"
+    },
+    {
+      "path": "config/jei/jei-mod-id-format.ini",
+      "hash": "463229eb371eb1ddedf018aca6199c85267b41f2"
+    },
+    {
+      "path": "config/jei/recipe-category-sort-order.ini",
+      "hash": "24eae0fa87ffd903acc3b1e793fb1434cf3a4e56"
+    },
+    {
+      "path": "config/jmi-client.toml",
+      "hash": "0e800f830a126cf1141d1967a3e4fd6b194084c3"
+    },
+    {
+      "path": "config/konkrete/locals/de_de.local",
+      "hash": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5"
+    },
+    {
+      "path": "config/konkrete/locals/en_us.local",
+      "hash": "42badc338e767559db38a67bd3e8020a92000e56"
+    },
+    {
+      "path": "config/konkrete/locals/pl_pl.local",
+      "hash": "adf2ded54b4952ca83af26a1217e2c5db8ac1429"
+    },
+    {
+      "path": "config/konkrete/locals/pt_br.local",
+      "hash": "9c324fb4d33106366e6cbb5400c8c34f11539d34"
+    },
+    {
+      "path": "config/l2_configs/l2library-client.toml",
+      "hash": "0bb0b788d45f2a594ab019bbc8bae3b74440c88b"
+    },
+    {
+      "path": "config/l2_configs/l2library-common.toml",
+      "hash": "572b067ea256a987a6a39fcccd1214c367b6fa51"
+    },
+    {
+      "path": "config/leavesbegone-server.toml",
+      "hash": "3196318344962b37f1d0ab6d8fc05c0532678c16"
+    },
+    {
+      "path": "config/lmft.json",
+      "hash": "2e80e8d24b405381d6ae8d32f51c04d88fec5cc2"
+    },
+    {
+      "path": "config/midnightlib.json",
+      "hash": "9a5bd042eb352a8d2fb2f946bba8d31d463abd37"
+    },
+    {
+      "path": "config/modernfix-common.toml",
+      "hash": "046452d3af87f5c1fd5de5650e3d1b73c930fd92"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "hash": "74bc477f39be1cf10350ef61ed2dbd31b10f30b7"
+    },
+    {
+      "path": "config/moonlight-client.toml",
+      "hash": "2b7b74e7a52aa0863a6d8d92ceca1e7e5dc247be"
+    },
+    {
+      "path": "config/moonlight-common.toml",
+      "hash": "5ae352a4b246a9c08f80c6cd5580871715576c1a"
+    },
+    {
+      "path": "config/mysterious_mountain_lib-common.toml",
+      "hash": "cc9c1e438fdc5577dcf8b8102bde9daedd2312b3"
+    },
+    {
+      "path": "config/nametagtweaks.json5",
+      "hash": "d2569c19ee68076a108081ab5b5fef30871536fd"
+    },
+    {
+      "path": "config/narcissus_farewell-common.toml",
+      "hash": "e9a5b1954e5c08fbc63a691d991c72f83c503c88"
+    },
+    {
+      "path": "config/natures_spirit-common.toml",
+      "hash": "f7ed95e269dce8c5e426ab84f980a67ea3da7d1b"
+    },
+    {
+      "path": "config/neat-client.toml",
+      "hash": "a0138dec93653056a03c15e6e3118cb5fdc22d57"
+    },
+    {
+      "path": "config/oculus.properties",
+      "hash": "9c7980b6d0352691ff615e8273a410ad64a9f406"
+    },
+    {
+      "path": "config/oei/common.json",
+      "hash": "8e4a71a3327f0256f1ed7e8fae1bd4e4761b3515"
+    },
+    {
+      "path": "config/packetfixer.properties",
+      "hash": "d33fe41b48df042928845714b21a9406c1f3e8b3"
+    },
+    {
+      "path": "config/patchouli-client.toml",
+      "hash": "e4987ed22204ca092b2d62a5fa1a065fe88fd9b2"
+    },
+    {
+      "path": "config/ponder-client.toml",
+      "hash": "0b19ea00344a54de06114aa1a0f1d4bec95782d1"
+    },
+    {
+      "path": "config/psi-client.toml",
+      "hash": "a977e7cd516797b7b05f4b0b956d76525fd0e727"
+    },
+    {
+      "path": "config/psi-common.toml",
+      "hash": "a16e196a51a4a751212c90e3c80a90b460d1c6fe"
+    },
+    {
+      "path": "config/railways-client.toml",
+      "hash": "a533a200f9f51bffe16a127a8972ee9bd52946bc"
+    },
+    {
+      "path": "config/railways-common.toml",
+      "hash": "84c59bd1047708357987030f4b89caf0bb5dc030"
+    },
+    {
+      "path": "config/repurposed_structures-forge/modded_loot.toml",
+      "hash": "afeec5878aae3af516327f56a7dad98de9ed723b"
+    },
+    {
+      "path": "config/rusticdelight-common.toml",
+      "hash": "6835e3bbcd12c6514d79707df2b7d015916ab786"
+    },
+    {
+      "path": "config/sawmill-common.toml",
+      "hash": "473e69b2e877a39b6210043795aa76186e84aee5"
+    },
+    {
+      "path": "config/skinlayers.json",
+      "hash": "c5c7f324747f2d53daf6a85e56d79c11102db918"
+    },
+    {
+      "path": "config/smsn.json",
+      "hash": "a2c393fe02cb80ac0eee13c752113daff1684f86"
+    },
+    {
+      "path": "config/spark/config.json",
+      "hash": "33b6644f61573b11848cde9419529737418e0207"
+    },
+    {
+      "path": "config/staaaaaaaaaaaack-client.toml",
+      "hash": "f8227c9e76fcdf18b459c5d5b597c59fc6cd90b1"
+    },
+    {
+      "path": "config/staaaaaaaaaaaack-common.toml",
+      "hash": "fc566cc2fd310d6259fe8fa0860b620af219bd99"
+    },
+    {
+      "path": "config/starterkit/descriptions/Archer.txt",
+      "hash": "1f0d217132723ad76cdbcbe27a0181ccbf7b88ef"
+    },
+    {
+      "path": "config/starterkit/descriptions/Default.txt",
+      "hash": "51f212508de1b146a587964cb983f30f12496bc3"
+    },
+    {
+      "path": "config/starterkit/descriptions/Lumberjack.txt",
+      "hash": "cab211893ab639a1ea498efeb62d3e8c2aaf23a7"
+    },
+    {
+      "path": "config/starterkit/descriptions/Witch.txt",
+      "hash": "77670cdf9e83923d908e2b5699237e8e5013500d"
+    },
+    {
+      "path": "config/starterkit/kits/Default.txt",
+      "hash": "67a57605e82482d2c5bc11b2ea3e4160e35e33f5"
+    },
+    {
+      "path": "config/starterkit/kits/inactive/Archer.txt",
+      "hash": "3703a6499f1f7efcb8438c8107b1a05d80370888"
+    },
+    {
+      "path": "config/starterkit/kits/inactive/Lumberjack.txt",
+      "hash": "08aa6a63660a91de3f4a33754246dbee08d8a7c8"
+    },
+    {
+      "path": "config/starterkit/kits/inactive/Witch.txt",
+      "hash": "29953138bd13bc758c5154d4ada9c00dccf7e166"
+    },
+    {
+      "path": "config/starterkit.json5",
+      "hash": "b6ed8af65615da34de6c2869d9dbe8029374e773"
+    },
+    {
+      "path": "config/structurecredits-config.json",
+      "hash": "a685079e8609a58713f1a2a17e76b548f65b8d0e"
+    },
+    {
+      "path": "config/supplementaries-client.toml",
+      "hash": "cc7c86b7e0d3c8dd5c5c1e659e72c7576a6a7302"
+    },
+    {
+      "path": "config/supplementaries-common.toml",
+      "hash": "73edc0007e735420ae1569440ef5c0fa68394e3e"
+    },
+    {
+      "path": "config/terrablender.toml",
+      "hash": "9170b19e75cded7b1d6229f44f1abb43a256d863"
+    },
+    {
+      "path": "config/terrestria/biome.json",
+      "hash": "f77dacff0889f4522536ca8667a5c1447c7d163d"
+    },
+    {
+      "path": "config/terrestria/client.json",
+      "hash": "d7383c7742a4fcf938430b7a88c7ffc71bc6aa4e"
+    },
+    {
+      "path": "config/terrestria/general.json",
+      "hash": "4f82c259eef1fc9f1231a65a11dc190a01084c8f"
+    },
+    {
+      "path": "config/traverse/biome.json",
+      "hash": "23f576dabbbf715480664de69635240b4e0bde0a"
+    },
+    {
+      "path": "config/tt20/block_entity_mask.json",
+      "hash": "748eca32e260f7fab8bf3805a665add7a0108dec"
+    },
+    {
+      "path": "config/tt20/config.json",
+      "hash": "d60d007db8190fbffa487ad6668203db2e823799"
+    },
+    {
+      "path": "config/ubesdelight.json",
+      "hash": "101d663b3d918324db4d828fe9348d210f842474"
+    },
+    {
+      "path": "config/upgrade_aquatic-client.toml",
+      "hash": "1f88e4def8994741332b15a7e4405ecb9ccec03f"
+    },
+    {
+      "path": "config/upgrade_aquatic-common.toml",
+      "hash": "01f03de2ccbe9d824ae4394ab8a8a375105a33e7"
+    },
+    {
+      "path": "config/vanilla.xin/common_config.json",
+      "hash": "849fdc9654c7fce3d9661542bc31566b96e87012"
+    },
+    {
+      "path": "config/villagespawnpoint.json5",
+      "hash": "7d8497c9e56435a36b6f093457b54479113f10bd"
+    },
+    {
+      "path": "config/waila/blacklist.json5",
+      "hash": "9eea1aa225c73276ef2cc720d0ac32d364dfc0da"
+    },
+    {
+      "path": "config/waila/debug.json5",
+      "hash": "0afa6afcb33dcbb662eaa17355301657db074459"
+    },
+    {
+      "path": "config/waila/extra/energy_blacklist.json5",
+      "hash": "68dd55b088dc15aac3aa5f7993f818f30d9f86cf"
+    },
+    {
+      "path": "config/waila/extra/fluid_blacklist.json5",
+      "hash": "65ca31bb8670fbef57755dea32f117b156597cb2"
+    },
+    {
+      "path": "config/waila/extra/item_blacklist.json5",
+      "hash": "9fe345e84b4899281fd130a58f31775d1bbe2d4a"
+    },
+    {
+      "path": "config/waila/extra/progress_blacklist.json5",
+      "hash": "f9c337ef00771607b796b7691f33ea7743e6aa90"
+    },
+    {
+      "path": "config/waila/plugin_toggle.json5",
+      "hash": "daef4b4e32b35ca1cb3f86d57ccbc6add5e39900"
+    },
+    {
+      "path": "config/waila/waila.json5",
+      "hash": "c5effc51180de829159e94fe857bea76921109d1"
+    },
+    {
+      "path": "config/waila/waila_plugins.json5",
+      "hash": "a131512be5b26242387198a55ba0db287b66741b"
+    },
+    {
+      "path": "config/waystones-common.toml",
+      "hash": "a815a7a44b15f6d5dd4ecb6fe3919d80423a1463"
+    },
+    {
+      "path": "config/worldedit/worldedit.properties",
+      "hash": "cdfd6625fc936b4e5af1fee98a17c5f0c7d7b0c3"
+    },
+    {
+      "path": "config/YungsCaveBiomes-forge-1_20_1.toml",
+      "hash": "a756955adc13cc3d0ca76ec773c8fda99fc3a96b"
+    },
+    {
+      "path": "config/yungsmenutweaks-forge-1_20_1.toml",
+      "hash": "d13446a67db9a32cf6bc6e51076acc333b6f73b4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/atmospheric_kousa_sanctum_798eff6bc0.nbt",
+      "hash": "83758d3866fd3f2c0a35c514bcb7e4a09db29017"
+    },
+    {
+      "path": "modernfix/structureCacheV1/autumnity_maple_hut_maple_hut_11191eb0bc.nbt",
+      "hash": "24fe7d658ec0e4e7e1457f3577661cd83f67acd0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beautify_botanist_house_desert_2a7f919b35.nbt",
+      "hash": "7267d6ea332d1fff5fac958b032448587503aa39"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_ghosttown_roads_street_01_32fff222a1.nbt",
+      "hash": "9ce843373dcc855f898874d6231e719855f013fa"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_ghosttown_roads_street_02_19915dba4e.nbt",
+      "hash": "a83c8f4b93d1402f42f00fd691ea41e39cdfb129"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_ghosttown_roads_street_05_55a61d7d48.nbt",
+      "hash": "cbeab7e974f436ce8ca965e56d4065607ec16dcb"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_ghosttown_roads_street_06_38c27d87e4.nbt",
+      "hash": "71f85b3db70700797b93272fd4761eb9ba2cba13"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_ghosttown_roads_street_07_e7cbc30866.nbt",
+      "hash": "bb7d64736c8bb5c91efef94b38d9b657c2191624"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_boss_room_d914d4bc64.nbt",
+      "hash": "0f3074f65b9b2e26348da7e310c67c9117e361f1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corner_filler_a90693afdf.nbt",
+      "hash": "e6a28ad4f7d4122ecec870974797cd53664e9f68"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_corner_corridor_corner_1_87da077584.nbt",
+      "hash": "4940f956b762a4c493c1a75159d69a9891be7abf"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_corner_corridor_corner_2_66e3f69471.nbt",
+      "hash": "88c61a330e41aa3b9ca8a210b832c630775605f6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_corner_corridor_corner_3_ea20db8ece.nbt",
+      "hash": "b605eacde3337fb4fc5f73b6d1138d4b13d48aef"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_cross_corridor_cross_1_91c758bd8c.nbt",
+      "hash": "5ae602260161cd0a6cd9abcae33692cb3e8cd73b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_cross_corridor_cross_2_f2378f2060.nbt",
+      "hash": "f5e096a4c17df7d7ba0b00948e80576f50425418"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_cross_corridor_cross_3_c5315fe071.nbt",
+      "hash": "1ce4dbd781f31dce601ed0d5fc85f0ad033a3b74"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_cross_corridor_cross_4_adb344ce68.nbt",
+      "hash": "652068b5fda423f5f912760d9c49d240572c9312"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_straight_corridor_straight_4_47323640a5.nbt",
+      "hash": "a2868cee91a82e84b16e238c067f8253648a3fd5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_straight_corridor_straight_5_81abdb583f.nbt",
+      "hash": "7054dc8b893ef10114715b39b953f795ba18f7e7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_straight_corridor_straight_6_4d211bd814.nbt",
+      "hash": "77ff9eb9e722669c51a264ec9220aa54c742f363"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_straight_corridor_straight_7_1a46be8828.nbt",
+      "hash": "67f3d713f9488fac8c4b9e972fbcb185d21a2c39"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_t_corridor_t_1_1550c4622e.nbt",
+      "hash": "89eaf972daad1bb65f526ca204831de4fbef7cfc"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_t_corridor_t_2_7919a1e1a9.nbt",
+      "hash": "c057ad4037ec0099b627098ed89ac9164ca827dc"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_corridor_t_corridor_t_3_71e381f343.nbt",
+      "hash": "191d891d5773b42e1fba1f7963165d1e06eba83d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_door_1_1b684585f4.nbt",
+      "hash": "e5b26a9d5d18f044cd32a95f4290d72b1cc4ade0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_door_2_992f2cb14a.nbt",
+      "hash": "02b510f36418f5e98bacf38928d500ddc28419b2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_door_3_dfcb9b37b4.nbt",
+      "hash": "9512417492244de6ea427c82aa60244ad6d3e861"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_door_4_53e0ef2657.nbt",
+      "hash": "9c4f9c58b93dfe34299ebb5b3511143a2b2705dd"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_door_5_d4cad9ce29.nbt",
+      "hash": "c93f50f6ed71fea2d9f09f96c82f010f68fb5f86"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_door_6_ff3509ad9c.nbt",
+      "hash": "25ad8e02f249bd22fd31595f799d682ecd511f0d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_door_7_98adeba133.nbt",
+      "hash": "d7326e5c7b1c8464ecd41e9e7a4a7d714c04df6a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_1_3ec5f92dc1.nbt",
+      "hash": "456d07c33b722621be8ca6dcc3b1b459131a5bb2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_2_e01d5e4ba4.nbt",
+      "hash": "aa71d65d5fef543fd928557e5ec26460127db0ce"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_3_abdba11305.nbt",
+      "hash": "03e2988a1692cef6b860174dfc1e1e32333fc64b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_4_50f683d915.nbt",
+      "hash": "5607905190179fbf37e4fa0e4dfea4fc31ef83a9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_5_1d8cb003c4.nbt",
+      "hash": "184c1c8db739a485183564f4d419cd93f65f2d18"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_6_1af3f58bec.nbt",
+      "hash": "40148b4593ac116cecb2101235d58dbccda1b62c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_7_fffe54571c.nbt",
+      "hash": "0f140f95856ac65485d182bb05f77e361487d5b7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_8_a87d84d3cb.nbt",
+      "hash": "e95697aaffbcdd3488147ff0e887022c66748ee8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_room_9_5dde6bd60a.nbt",
+      "hash": "d6823e3596b7e74f2e0d2c8c22c81fcc60439da2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_stair_bottom_2609b77689.nbt",
+      "hash": "a38dce3408c90ea337053255c378c9147619a492"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_stair_mid_1_fd1c85d5a8.nbt",
+      "hash": "936e90dadf89af05c13ff5ad4304f548f69b1a9b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_stair_mid_2_3c56dffce8.nbt",
+      "hash": "77d031b8929345df1b2e535db25c18a724a0b4d8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_stair_top_98dd24cb81.nbt",
+      "hash": "6ed77fd1e4b1c68b65760e0a523c353962aea631"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_dungeon_wall_1_e35b305786.nbt",
+      "hash": "5e7f75f81c2562506acfd6da777e458302b38fc8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_empty_d982f745b9.nbt",
+      "hash": "8095d866d7f44c48b44271f837e13b9d04ded9e0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_entrance_entrance_1_6d87469017.nbt",
+      "hash": "15619092dee647455bce37497a045aba86c97373"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_garden_garden_3_919b47d49f.nbt",
+      "hash": "cfd38d7e1f294013624ed8cb5f639e0327d315ef"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_garden_garden_4_3915ed9301.nbt",
+      "hash": "703a89b6e9c819795f0d1761d4d1631b81e76ac8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_garden_garden_5_d727f61b11.nbt",
+      "hash": "c89b0f684efcbedc3d65c7507667b184bd3a911f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_garden_garden_6_ec0ba2f67d.nbt",
+      "hash": "af9aa220cc19a0eeba92b5e575245ce23ee537e9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_garden_garden_7_5e5eeb653d.nbt",
+      "hash": "75ec64cfbf76dfa753bfd2ba150f549a114a61e7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_0_1_f3400517ae.nbt",
+      "hash": "c9314014d2312ec81527aa2c9c013496470b90be"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_0_2_090ed5375a.nbt",
+      "hash": "4fef39990f5d5dc21f830950daf9d94c6f9e62f7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_0_3_d3971ff1bd.nbt",
+      "hash": "1b8b6a191e2e9f78f059a1ad4c57bb1798fecb76"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_0_4_3e5d8be5ab.nbt",
+      "hash": "88543604a62e8566e944b64a93100d7a9ec8b341"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_1_1_137fc89c89.nbt",
+      "hash": "3d8d1723b57944c6b938759461fefe50fdda6ba9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_1_2_b0e038a6e1.nbt",
+      "hash": "51eafd58acbdef83401025999dae769929b352f9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_1_3_eadd31d7c7.nbt",
+      "hash": "64070219778b0a16f8e06359d9cbb00d0be80ef2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_2_1_a55117399a.nbt",
+      "hash": "5ad186b5486ab6a76f99a1aa74d110b85fcc16d5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_2_2_ffaebe20df.nbt",
+      "hash": "62bc111cfbdcc9a3c4876c8f0a74c7695e6cbb74"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_2_straight_1_b40a2654c4.nbt",
+      "hash": "9d40c7e57c9776a9504ef6f191ae00a5e1786b2d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_2_straight_2_f4d9b0b13e.nbt",
+      "hash": "f5ec5999a3eb7b3ec8ddf246bbddaf9404883bb2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_3_1_6ffcd4ce94.nbt",
+      "hash": "e8bfdf6e8cab6ec10676a1676e105ecd8f5b1016"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_3_2_0ba871b991.nbt",
+      "hash": "0b8c09df391a1320c547867c0aae853bff9e1343"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_3_3_8bfac72813.nbt",
+      "hash": "bb71007dbe29d75b15cb3f21d5afcdbce7cebbdd"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_4_2_ee82e136c6.nbt",
+      "hash": "d9b0734018f8d79486a65276e32b75ebb813b10e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_4_4_3f941b07c1.nbt",
+      "hash": "d354a094e9f22488ea8327d1e09784f259005962"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_split_1_4c648be944.nbt",
+      "hash": "f71149ae94e9d131fe0bba9bcbe73adc28a95590"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_split_2_3000d41b90.nbt",
+      "hash": "1f1ea50e6e5d23fe0dcc8dbda61f045124e64560"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_split_3_2eadb8a210.nbt",
+      "hash": "147cbc2fa9c98dc5eb318476b885f535f29e36be"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_split_4_0c06a49443.nbt",
+      "hash": "4a748a5f25fb9e5402171b97d85911da66da3a95"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_roof_roof_split_5_fe7b6746a4.nbt",
+      "hash": "0040efbe5f765e7d16dcd25c3b1ab14e5c4fb71c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_10_34ff0d0bff.nbt",
+      "hash": "718e1ac240d017f58f4b15354b76bc0f97f82750"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_11_f67d14692d.nbt",
+      "hash": "a98a755d6d287fbe5d87a54d0ebbf32e8fad96a6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_1_df692b8a08.nbt",
+      "hash": "f6a50c0594ed3b75c984d346034402875a99f87d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_2_114a9f882f.nbt",
+      "hash": "6c397a982a0c983de07e86aa307b707f5400d405"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_3_f3153d4555.nbt",
+      "hash": "cd87b6cee77d4449a6a08aa463c76b49e70b25d4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_4_028c303295.nbt",
+      "hash": "42bc3e985d2152a863efba3bfee4f2d70fdabcc1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_5_ca963efb69.nbt",
+      "hash": "613b30421fc5d1f6e7df91dc17dbf8f51e528049"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_6_e7f7a10553.nbt",
+      "hash": "bc379b145e1d27e4b0b675198cb98476a328cd3a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_7_670b504a75.nbt",
+      "hash": "084d55069d354ec2ec07fe7c4f9b78e1a0c562f0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_8_8ae266ea09.nbt",
+      "hash": "efa066f89712a2071d19329defdd755fce16ea5b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_big_room_big_9_2a86c91597.nbt",
+      "hash": "0ea13efc5dfbfa50784131a1a01a09dd84623449"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_10_f93df9335a.nbt",
+      "hash": "2ae441601be0b61428525f0ae43b247b563fc024"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_11_28ea4dca2d.nbt",
+      "hash": "003ded5e76b4b7d6b50714eac38142524cc82e7c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_12_5e82c01db9.nbt",
+      "hash": "e43f5db5c57ca083e53f9824d993ea17dbcce3c3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_13_3a44e09ac3.nbt",
+      "hash": "8e3e32dc39b34885f194b84a2a180d8abb94f36a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_14_913f7b9fea.nbt",
+      "hash": "c8c69b443c58855c161ed4dface7e6c6529bad06"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_15_d039400b33.nbt",
+      "hash": "6aadfb34bc786a982b683a69e244056f300654ff"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_16_3c7c627f62.nbt",
+      "hash": "1047a19fd55fafdb7165825861fbd4bfedc490bd"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_17_aa3ebc6c86.nbt",
+      "hash": "deb361f7d26a9fc8809b0303b10d66c43cc33566"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_18_d8411bf527.nbt",
+      "hash": "79eb72ed5978efc8bacd855a397012eb4ad7abf4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_19_718dbd0eeb.nbt",
+      "hash": "33ce1898dec3c7b7121a4aac23318c5fef57843c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_1_43cc17a4e2.nbt",
+      "hash": "0beb98317fb83e6bd9f90eb7493b32f6057d0806"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_20_c7ed8c2460.nbt",
+      "hash": "512c8551ebd916f041f6299036d84a71e0a1fb37"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_21_a00a7fdc70.nbt",
+      "hash": "70cd95aed0df85f76d6a36f590bddaaee1a41d69"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_22_8da476c0ca.nbt",
+      "hash": "7c2046b47884a1827b89d00c9ce6a744de48ebdd"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_23_5789a19926.nbt",
+      "hash": "73560c388a78b01f769a380000a66fba81f10b19"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_24_69cc4f0ed1.nbt",
+      "hash": "12dbc383bff86855af6c0466760dc5e5476a93a9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_25_8458f04f92.nbt",
+      "hash": "d7a72aac9ebda51e7c9756b96899aad1602e345c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_26_35db4f25a4.nbt",
+      "hash": "897e79bbf579edde27650b5d378e866bc4d315fa"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_27_50ddcb2866.nbt",
+      "hash": "8adf10520d7f86ceb4b5c5cf3b574bcb777b8ad4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_28_44697e0739.nbt",
+      "hash": "ea4017d59cd8f81e3a6ef257de597fd4fa277af5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_29_1deecb49d3.nbt",
+      "hash": "af94799fd93decb56ea0a5f104a1781a083e1581"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_2_3b01de081f.nbt",
+      "hash": "e281ac948434b4fe8a9d1c1393ec8c5ec22d3ded"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_30_ed21272401.nbt",
+      "hash": "3f5c53751c3738e01c01d04972bc3b3f1d53806c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_31_3981424686.nbt",
+      "hash": "c8f0a7dc2c00bbad423274886ea5341b8bbe41ff"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_32_c1a4c15b7d.nbt",
+      "hash": "a3ce7c703aede7d31137b63cfb85ef465c56872d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_33_cfc55b5097.nbt",
+      "hash": "06f8449385aecf02bfc7cc95bc695ed9862f3280"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_34_8f25b45455.nbt",
+      "hash": "a2d3285ca14136c4c3a596738854c69bb0e81be8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_3_d6fcd4a091.nbt",
+      "hash": "9f205cfafe0f6d30c412500348e444c99ae28163"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_4_df787e5ff4.nbt",
+      "hash": "134ff04f0d73139405d4767772b13cc7a7173c7e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_5_27d9db3d96.nbt",
+      "hash": "9109e1601c6d9f841235e33147c0548fd3724e9d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_6_72209b2790.nbt",
+      "hash": "f6aa52f743190211b523bee0a4316533bab21d45"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_7_1ea4de10c2.nbt",
+      "hash": "eee310b3e18705f94cc6a2ce6555a864e3f9b906"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_8_9c0fc497fd.nbt",
+      "hash": "6aa088e5fa01b6559f96ff09bc95a2a0a58d4371"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_room_room_9_a7c436b24d.nbt",
+      "hash": "1b16cfe9f709f11822239b7044ed08b3225c0c18"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_stairs_down_stairs_down_1_6b3e61915a.nbt",
+      "hash": "aa32f6bfae2a2613e622662221272a09110f5995"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_stairs_down_stairs_down_2_9457722e31.nbt",
+      "hash": "a25f915130c4966026710aa207920dadbc0feced"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_stairs_up_stairs_up_1_bf93e99043.nbt",
+      "hash": "404f16de9e8a0924bb3d02d601abefad09e54ab1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_stairs_up_stairs_up_2_307d3df004.nbt",
+      "hash": "6560b1d09b05b422c158a94c44204da2e0fbfe34"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_tower_base_tower_base_1_d179d76fb3.nbt",
+      "hash": "7665d62ad353e0771119e5c72a347f8d6bb5de8f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_tower_mid_tower_middle_1_bc69b3316d.nbt",
+      "hash": "aae94e29717da5acdc1fbc0a5898592456ecd3ec"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_tower_top_tower_top_1_a63c36a20f.nbt",
+      "hash": "3dfd8674eac8cebd3b2a8414d87328adbafcf79f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_flat_wall_flat_1_ee114da19e.nbt",
+      "hash": "7145430784b8e2be4f3a46bb0ea4ebc37ebe3d9a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_1_d41bb27c13.nbt",
+      "hash": "d94d25f11689095faa7f14e404463aade9d17d15"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_2_cc151f8f96.nbt",
+      "hash": "b6ef10ba8d2d2ce0a073278ffbddbd2bce80932c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_3_ff15339b50.nbt",
+      "hash": "a79c8fd42cdc5d12d1c5b29210c721f922a6b06a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_4_4bcee0df34.nbt",
+      "hash": "3ca458222ff5bab507e9d6b1f230efd5eb962b83"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_5_1590518b3a.nbt",
+      "hash": "89d9b1b4f747b78abc14520d6007bff87ef09154"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_6_c0edcd382e.nbt",
+      "hash": "a3a48ab2b2b66a69f4e41558ab21ec16c80d2e01"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_7_9866160079.nbt",
+      "hash": "49eee6912bcba9473e66eaa7d332c15ba056be99"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_8_be43cacc4b.nbt",
+      "hash": "36dd45b92ccfc7f34dfd4c4aeb241fca1023be7c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_inner_wall_9_2d3e717b59.nbt",
+      "hash": "9194e844b9c0a8b400e9604f7cb4664dca3c9c4a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_base_wall_outer_base_2_0bb18e4709.nbt",
+      "hash": "6abf2867790f993798e7adc9f2cdbeded127e7d1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_base_wall_outer_base_3_f262a2ab91.nbt",
+      "hash": "a7d5e2667f0481e0e490a05428d8a24f194d06a7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_base_wall_outer_base_4_a7b4bc34be.nbt",
+      "hash": "e9294afc257ff5a46b34e04244d308e9c96794c5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_base_wall_outer_base_5_7f2d59577f.nbt",
+      "hash": "f17b32bd04824c2ae2992158e61abc30d7040b0e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_base_wall_outer_base_6_c0e8da51c7.nbt",
+      "hash": "0c76f377cbc91a39802ba358e969bb6e4d09c8f9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_base_wall_outer_base_7_eb5ac03188.nbt",
+      "hash": "6255d9f69ca7a2a8d5fed28802466437723e8c4e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_wall_outer_2_1d85185f04.nbt",
+      "hash": "094fdedbc06b29096fac507359e4be7cd4080d53"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_wall_outer_3_7971e88dbe.nbt",
+      "hash": "6429a7dc7ec66e51ceb3fa46ba9570c58d357bf7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_wall_outer_4_9b68ea2877.nbt",
+      "hash": "f7d274916998afb3c3515c70086d0086fb5d330e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_wall_outer_5_85c7c76407.nbt",
+      "hash": "89ae75693d7b26b32d6c0da8a438b01bca48847c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_wall_outer_6_f709aee5fd.nbt",
+      "hash": "d5746d3152156eee3e1efa572ccb56bf6c25538d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_10_62d694bbac.nbt",
+      "hash": "77b8f37508b632dc79df9a064ffdc3cfb6e69da3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_1_2e7e10cb33.nbt",
+      "hash": "0624c03d8b7a83cc80732ac170bed585d287c9b8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_2_f952a61df4.nbt",
+      "hash": "cdf0949386b1f5474733055198b8034cede60c3b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_3_985360bb4b.nbt",
+      "hash": "cfe609147cea2d757d14ad0668ec15f58cbf14ca"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_4_ad15528042.nbt",
+      "hash": "d094d274074853811997dbd3581dc9618d3e7545"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_5_42407d19ff.nbt",
+      "hash": "06eedfd47e763c1522f4862bd47c721ec835dcf8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_6_711f3b3bd0.nbt",
+      "hash": "9d9620407b0dc33c96e4bd5f27403b2cae5dfca0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_7_2248c2f8e6.nbt",
+      "hash": "61da366302d9d41f3fdb76c8d28eb38bb422f271"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_8_0f40fd4140.nbt",
+      "hash": "d1234be690486d83a5ea579374e3edc89410a36e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mansion_wall_outer_window_wall_window_9_a5cecfa98d.nbt",
+      "hash": "a67f1f881a14cd4647f23be4bdb08aa0d31c3835"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomemakeover_mushroom_house_house_house_1_8cdd1c997f.nbt",
+      "hash": "89f293fe75533ea464961eca59ccfde9852a4ccf"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_birch_birch_boreal_canopy1_2a20b24fa7.nbt",
+      "hash": "209d211700ab3457edd62f4bd1c6d6555ecebf55"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_birch_birch_boreal_trunk1_e9160aaaa4.nbt",
+      "hash": "a3cf299f4cae5c1dc86fbe1666a034c1b6ab815f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_birch_birch_yellow_boreal_canopy_226262ff48.nbt",
+      "hash": "7a1bc8c30cd0baf620ed6200ca62e36a95a215d4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_birch_birch_yellow_boreal_trunk_573a03d353.nbt",
+      "hash": "4726c68ff838851544ae20dc23675dec916a3ec1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_generic_trunk_573a03d353.nbt",
+      "hash": "4726c68ff838851544ae20dc23675dec916a3ec1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_giant_allium_giant_allium_trunk1_1ca35773bd.nbt",
+      "hash": "ff2dafd1c101d06e3ac4306e02f2f19e1232830f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_giant_allium_giant_allium_trunk2_9787a484d4.nbt",
+      "hash": "56db2e033aa7032851fd338f363ebcf0d82e9bb9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_giant_allium_giant_allium_trunk3_1c1d60169d.nbt",
+      "hash": "d636c5d46e7c61c027695965b176dca244c3b69d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_holly_holly_canopy1_a2949f6cc1.nbt",
+      "hash": "7d075f40364375634509c9462d5d6d04876ea697"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_holly_holly_canopy2_85070d2abd.nbt",
+      "hash": "d58f30a1b21ca83cfb729f6444b8de0763a10296"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_holly_holly_canopy3_21ff283729.nbt",
+      "hash": "3ec37c6ff426edcf4fab38ea10263f4adbceb2f0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_holly_holly_canopy4_dec82db661.nbt",
+      "hash": "1bbb57aae581ff24e334841fa5ae1f529c922142"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_ironwood_ironwood_canopy1_01a241cb97.nbt",
+      "hash": "fe5c2620b8d38cc5619e476ac155c707c2d8aa0a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_ironwood_ironwood_canopy2_af96b778e6.nbt",
+      "hash": "dff4d7db27f46168a72c7a9e608ebfc740df4603"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_ironwood_ironwood_canopy3_bac3eaec77.nbt",
+      "hash": "653bbe25a82464d96850af8c77c32944ee53b9c6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_ironwood_ironwood_canopy4_1933d061e3.nbt",
+      "hash": "751ef792b1831873ca467af5350a5e6bc41cbcae"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_ironwood_ironwood_trunk1_a01812ec26.nbt",
+      "hash": "00aed7ff88fdea81936e84a748dfe8f3d6ca18e8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_ironwood_ironwood_trunk2_a960e10f50.nbt",
+      "hash": "9483233e5996a2958ff563fb1738424e1a08baee"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_ironwood_ironwood_trunk3_a960e10f50.nbt",
+      "hash": "9483233e5996a2958ff563fb1738424e1a08baee"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_ironwood_ironwood_trunk4_0f2dfbe376.nbt",
+      "hash": "16503c9a00f044cfd4029fc4af370b3a11a83f19"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_mahogany_mahogany_tree_canopy1_9fd1d1476d.nbt",
+      "hash": "4838ddb99dbdd51cf02c886e72ec3659b37b1337"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_mahogany_mahogany_tree_canopy2_8dde81e1ed.nbt",
+      "hash": "bbf97eecd007f9975272b0667c6f1416233dfc36"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_mahogany_mahogany_tree_canopy3_b21a69be32.nbt",
+      "hash": "ff7a4d0be0697dcb19b9c406a31e09cdbc65bb6a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_mahogany_mahogany_tree_canopy4_7a6d65c30c.nbt",
+      "hash": "66d9958b686236aa34f4a37f9cfca832ef569d88"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_mahogany_mahogany_tree_trunk1_cb4c0a9811.nbt",
+      "hash": "e0bda7eb751452a292508ea50d8c58c63cade870"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_mahogany_mahogany_tree_trunk4_08fef5cdfc.nbt",
+      "hash": "04b078c2bf2c77452eba99529442be0c67d271c5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_meadow_meadow_shrub_canopy1_8c1da4350c.nbt",
+      "hash": "eca73ced08a36cdb80806c72b76e82dfcbe83580"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_oak_large_oak_canopy1_cac287c24c.nbt",
+      "hash": "dead471d78abf78475b037e9acb310a1555e8123"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_oak_large_oak_canopy3_b26cbe8a2e.nbt",
+      "hash": "eda67a4bfc6a3cd3e77384df08aa82e7a8b0c75a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_oak_large_oak_trunk1_edfd3eabba.nbt",
+      "hash": "e185f6d501e39ae726227c90d609a8f907be305f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_oak_large_oak_trunk3_8d309b3a0c.nbt",
+      "hash": "64a7f1816f5f4bfcc52ea890d91bca2bdedda76a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_oak_oak_canopy2_c1c4ad2a61.nbt",
+      "hash": "675aa48c4f2fd88887ed2aef5048a109dd64cc6b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_oak_oak_trunk2_5051d46ccf.nbt",
+      "hash": "5c38263c2bef456784378c2c6e9f9e1e2a838732"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_palm_palm_canopy3_d43f5fdf05.nbt",
+      "hash": "1abd5717a3ff04c4574dc33059dc8a15421acce3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_palm_palm_trunk_ae08282051.nbt",
+      "hash": "d67441971d217328bd52663638e1b661483bcd74"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_prairie_prairie_shrub_canopy1_ce40693c32.nbt",
+      "hash": "dab0d7e9cdb0d77da030aaf3f3895a6ffaee60e8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_prairie_prairie_shrub_canopy2_e52a05620f.nbt",
+      "hash": "047651c79970a698f67241b188e04d31c7e95361"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_rainbow-eucalyptus_rainbow_eucalyptus_tree_canopy1_e84684d0e6.nbt",
+      "hash": "ad1b2e6c86084f00dc19533a6a295048131f1f63"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_rainbow-eucalyptus_rainbow_eucalyptus_tree_large_canopy1_c11f2a318f.nbt",
+      "hash": "79bbfd6f0017b28efdbc9ff7bb143112d7854e11"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_rainbow-eucalyptus_rainbow_eucalyptus_tree_large_trunk1_3a66e85ca9.nbt",
+      "hash": "d861517c764c0acaf87635bb079b815ce78ad1d0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_spruce_spruce_tree_large_canopy1_2094fb45d1.nbt",
+      "hash": "efcab0b7f3e32ae293824c517599fad859c1bed7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_spruce_spruce_tree_large_trunk1_13ff258c9b.nbt",
+      "hash": "706f666998fffed06d3aeb5463615d82e3d0e32d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_spruce_spruce_tree_medium_canopy1_b34a8afbae.nbt",
+      "hash": "08e858629d4a74035715ce052a83d61a07f0a57e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_spruce_spruce_tree_medium_canopy2_9e71e34e19.nbt",
+      "hash": "a3236f0b4b476e8c03108a2e077da5bc6b066eea"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_spruce_spruce_tree_medium_trunk2_8a35d78579.nbt",
+      "hash": "a086dbf57be74e80a192025a850b5fa3d6d19fd4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_woodlands_woodlands_tree_canopy1_689706d65e.nbt",
+      "hash": "58e14264bbc0cb0f6644819ad105e51604adf114"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_features_trees_woodlands_woodlands_tree_trunk1_350e1371ce.nbt",
+      "hash": "9ce3176d6f40b7f04a7a57d94a87bfac7813eb22"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_fossils_rugged_1_ce85106b78.nbt",
+      "hash": "bbfc3a9783061243cda5d9f5f4c1fa1327baa185"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_fossils_rugged_2_f6c68dd47d.nbt",
+      "hash": "1ebf892e2fa70ed58848178cfd9afcda333fe6cb"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_fossils_rugged_3_f527c5bfa9.nbt",
+      "hash": "65056b3f70304da9317152a2f74c6a8642032210"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_fossils_rugged_4_763fc39589.nbt",
+      "hash": "b65f1eead407bb75fad13051ecc7014d62d24952"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_fossils_rugged_5_ba1481717f.nbt",
+      "hash": "9634edcbf781acc24ba0514b2cce74d35cdaee91"
+    },
+    {
+      "path": "modernfix/structureCacheV1/biomeswevegone_fossils_rugged_6_a770676c51.nbt",
+      "hash": "372742f4a740f99acb4f7ebb019bdafc11f6a6ae"
+    },
+    {
+      "path": "modernfix/structureCacheV1/environmental_log_cabin_log_cabin_10_c8a3d762ae.nbt",
+      "hash": "7329bda119fbd0967ce26732bb0aa0788a4ae934"
+    },
+    {
+      "path": "modernfix/structureCacheV1/environmental_log_cabin_log_cabin_15_6dee11c934.nbt",
+      "hash": "06538fde60b0cacfa9ad2b89f961b5a06040964d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/environmental_log_cabin_log_cabin_4_14a416a0fe.nbt",
+      "hash": "a176270e1bd296a941ef3262b66e94cd35370270"
+    },
+    {
+      "path": "modernfix/structureCacheV1/environmental_log_cabin_log_cabin_5_e5eb1289dd.nbt",
+      "hash": "b8fa1329ab1865cb6d80671c0c490010a32aabdb"
+    },
+    {
+      "path": "modernfix/structureCacheV1/environmental_log_cabin_log_cabin_9_8ea6d23917.nbt",
+      "hash": "26871be01ad57efc0856cb0ef48acd983d45e693"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_altar_altar_01_2a05706fc3.nbt",
+      "hash": "1d233c7fa21c7463dbaf72710a0111cc02ed59f4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corner_01_88b64c09fd.nbt",
+      "hash": "ef907c50e7095a7a851247042da20c4ed2353a29"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corner_02_3dba341d16.nbt",
+      "hash": "94a308157187c45d863bad78f761b6672a49699e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corner_03_15a355af23.nbt",
+      "hash": "d5c4936c8af5ba6749868e55b0a5de9474d97a87"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_01_8b895c5936.nbt",
+      "hash": "fec832cc8fe95ebcda4db020e22af7c0113e12e6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_02_98cb9c5de7.nbt",
+      "hash": "b14af4bbdb2a4cd3bf52753868e56bd2ded898a0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_03_49b19255aa.nbt",
+      "hash": "647c01558401df8872357c1997e67b8a96ea6925"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_04_baa2e12e45.nbt",
+      "hash": "8b930f9996393c42f19d51319c1d953eb0ccc067"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_05_72707ebf65.nbt",
+      "hash": "d31629e36c409762464558ce6ad8db94755d5dd5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_06_e9a91954b9.nbt",
+      "hash": "659ae317749bfefd65af2922022ca276a25b624d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_07_13a47308a6.nbt",
+      "hash": "0d0a45c09a5c879a68cb66b8fd3575fba61cef0c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_08_ff452b7fec.nbt",
+      "hash": "bf50ef8690affe3c4f18b283a8b3105af56bf350"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_09_02636b9bcb.nbt",
+      "hash": "c845d449cae9dedd22d8954f47ba9b7b8eebb583"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_10_a6c4efb3ee.nbt",
+      "hash": "d490b424a735c1052bd15858cd6f925df18d074f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_11_1573c89f2d.nbt",
+      "hash": "6af3f03b619b864ac4d9d93f4c84b288d766020f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_12_02dd429f8d.nbt",
+      "hash": "e85f9a69827dfbce40e331b20ab549c957f1b4e7"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_corridor_13_d3877bfb7d.nbt",
+      "hash": "7ca43fb233a2e990e8aca1bd694e71f41a61fd41"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_end_01_c8c683eb9d.nbt",
+      "hash": "c415389b2ee73f001c268b6520e4271f26e00505"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_end_03_5863cca145.nbt",
+      "hash": "ee91d5feec29b23c211ee26cf465ddfb94665f5e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_end_04_4c826fb756.nbt",
+      "hash": "f9f05561b2a1663b1ca595dd7fbe6da7cfc2587d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_end_05_f28e040f80.nbt",
+      "hash": "e07422b6c1751ec1980d7f770e0bcd9293104b74"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_end_06_6bd0833ad8.nbt",
+      "hash": "5c1d01107670e4166a5be57491abe39826a435a9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_library_01_4efb44b2b6.nbt",
+      "hash": "fa06a059284049de33096485af3545729706583e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_library_02_649a1786b2.nbt",
+      "hash": "7da65f98afa2a3f9bdc31eecf5c23d20329d6bc4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_room_01_31c3522596.nbt",
+      "hash": "2862cc580b3d4585af9085b3fe39d64c399f03c1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_room_02_eccad23be2.nbt",
+      "hash": "33a92126534bad0346919148584f525b63007ffd"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_room_04_b6c1cbf77a.nbt",
+      "hash": "2266abc93ff730fd2c3e8d4d6a3eec90f2f8244b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_trap_01_91bb14226b.nbt",
+      "hash": "31a6e7c3e4cffe49c24efe1e76f1509130f1e3c4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_trap_02_1ecfacf3cb.nbt",
+      "hash": "94b7e6da14a201b57a6dca47cb191586d91987ce"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_corridor_pool_trap_03_5988694161.nbt",
+      "hash": "653f2232436f9f102fa3a1e5ee392fe0184f922a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_crypt_start_pool_start_room_7465a5fc69.nbt",
+      "hash": "cfd1991013ac755bf2e9a192f15f0584b573f1ab"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_dead_tree_dead_tree_9585ef70a3.nbt",
+      "hash": "2f4bd079ec304d965268e2eb487bb6c54844d33d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_haunted_house_start_pool_haunted_house_01_b2a0a03ff0.nbt",
+      "hash": "e7cb2a147f38d83c0753574b19982dd1f0aa03f1"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_lich_prison_lich_prison_9d8451d5d2.nbt",
+      "hash": "7bbb2b240f4a4cba1d3c52d59071290e1ddd54e8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_medium_graveyard_medium_graveyard_01_aae954b46b.nbt",
+      "hash": "e8ad04d8d647bd277982e7fb7e20f851948fb0f0"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_memorial_tree_memorial_tree_01_311ffe6c0e.nbt",
+      "hash": "8a7064770d58752c1c7c2602173d93cf3d59a6eb"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_mushroom_grave_mushroom_grave_01_7e8b1a4647.nbt",
+      "hash": "bb1553d16e89ecc1b903178d59e7716c79f8c873"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_mushroom_grave_mushroom_grave_02_6c98c19543.nbt",
+      "hash": "c0dd81f0d2fcf58466b98b13c05520a6ba86caf6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_ruins_ruins_03_1834937b8d.nbt",
+      "hash": "5c8447dd5392eea2bd36094da16b1ccac344ab0f"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_desert_grave_small_desert_grave_06_f1d5364470.nbt",
+      "hash": "96b28aa62064160e1728072c5fda733418ba36f6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_desert_grave_small_desert_grave_07_767a5d86c4.nbt",
+      "hash": "a7de2f61b9ea487768ae22f189fbfcd9de3f4ab8"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_graveyard_small_graveyard_04_292045c39a.nbt",
+      "hash": "d6e8d0b75340d83825da185291d280bf1a76249a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_graveyard_small_graveyard_07_76596ca855.nbt",
+      "hash": "7ac24b5525ccdfb9b08379f94dd4de30cf6399e4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_grave_small_grave_10_98cdcd6c45.nbt",
+      "hash": "0464b4c531c256e25ca1fd793942142a628b698e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_grave_small_grave_11_e13973044b.nbt",
+      "hash": "2cea7a67444c8322b06b9a5686bfc56dbea987e4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_grave_small_grave_13_be147b0204.nbt",
+      "hash": "6f7e0fa18d19d2eff93dcf9cf2553b14c2e9025b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_grave_small_grave_14_58a4daf501.nbt",
+      "hash": "c9724f8282bfe06143e17fd39757b596f0a52c32"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_grave_small_grave_15_65a51d4ed2.nbt",
+      "hash": "4cf635206a9701ac0c2874a81b057e926a19537e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_grave_small_grave_16_43ec059b7f.nbt",
+      "hash": "2acbfbed63b23c667d30eddec6cd0c94c8efd839"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_grave_small_grave_17_4f3740a04b.nbt",
+      "hash": "9b065de65a0366113924038ed177b1f03f70ecee"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_mountain_grave_small_mountains_grave_02_b63cd00562.nbt",
+      "hash": "895f40072205663f3bc2f8d7fb39ac203f4dbec9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_mountain_grave_small_mountains_grave_03_9c67206457.nbt",
+      "hash": "105e8cd0ebe60b41aefccc3c585eaf71fbd1a53d"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_mountain_grave_small_mountains_grave_06_1f580368ca.nbt",
+      "hash": "7e49b1227a791b2fc32000dd305175b511260fa6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_mountain_grave_small_mountains_grave_07_042aead2a5.nbt",
+      "hash": "50936518c4155d0d7f268f4f1de0cfa4ad933cc3"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_mountain_grave_small_mountains_grave_08_03673c988a.nbt",
+      "hash": "e38a54b9c454e4ac4f2a1e23e37344ab09f7e231"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_mountain_grave_small_mountains_grave_09_c5992bdd82.nbt",
+      "hash": "93808668c14c6f2936a83b6b0cdb8f7e316fa263"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_mountain_grave_small_mountains_grave_10_c7974966b3.nbt",
+      "hash": "17147519818d9366c046591a5c2629fdfe0a7a92"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_mountain_grave_small_mountains_grave_11_2277f98691.nbt",
+      "hash": "39e4b550301b0baa55e3285acf76028e6694831c"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_savanna_grave_small_savanna_grave_01_e174e253dc.nbt",
+      "hash": "549fce5ed105628059059a9987ac205b93eee1a4"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_savanna_grave_small_savanna_grave_02_db967c1990.nbt",
+      "hash": "11637a76cc8813324d9ad915283a52635dd67a7e"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_savanna_grave_small_savanna_grave_03_2585f9ec80.nbt",
+      "hash": "0905db4b004cde2a344f441b4346929de2368206"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_savanna_grave_small_savanna_grave_04_905a57ec84.nbt",
+      "hash": "bde10f1a7e62c0da51de75b3f217b3a606ac59b6"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_savanna_grave_small_savanna_grave_05_5865d5bca7.nbt",
+      "hash": "72578d29de04eb0de57a9605f52fcec4c39c6874"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_savanna_grave_small_savanna_grave_06_6c1da2b212.nbt",
+      "hash": "a925296d4cfc828415f01d9f3c4e755669bc1c48"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_savanna_grave_small_savanna_grave_07_b2c25cc71c.nbt",
+      "hash": "b54b5258f985ef7302f8de78f3354b7e96a23167"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_savanna_grave_small_savanna_grave_08_b5906c6523.nbt",
+      "hash": "53f24d8ad29b7292f62081a2c44934b3714d455a"
+    },
+    {
+      "path": "modernfix/structureCacheV1/minecraft_village_common_iron_golem_5b4d80daa3.nbt",
+      "hash": "db82b96ec98d254947e18049daa1da2ef65a93a9"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_cypress_terminators_terminator_01_b96a2c5a0a.nbt",
+      "hash": "7ea96d9f2c3a6c09112a963ca62a8d6c8c995b04"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_cypress_terminators_terminator_02_b2a00844d4.nbt",
+      "hash": "5b9d776e6b63489f1ea50cc251148802f9ceddcf"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_cypress_terminators_terminator_03_f1dc7ba123.nbt",
+      "hash": "b9259b1b1d930171d07c93e12639d83e6037f884"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_cypress_terminators_terminator_04_61c64a8a3f.nbt",
+      "hash": "ad85bc525e0eb6d1cd4c1941b81017e870666c5b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_cypress_villagers_baby_f2a0ecd6b5.nbt",
+      "hash": "8b0177c5bb2955672d0a10f7667c3384445ff9ba"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_cypress_villagers_nitwit_10431b05f6.nbt",
+      "hash": "681e66099b5b8c2c7de5e0bccfd5d4463507dcac"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_cypress_villagers_unemployed_49c6196572.nbt",
+      "hash": "3da698f07536fbe243f15351651132801eddcdad"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_wisteria_houses_wisteria_temple_1_8e4082af13.nbt",
+      "hash": "62e8f14bdd980b2b3d07cb60e80653d1f260c5c2"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_wisteria_houses_wisteria_temple_2_75a376f15e.nbt",
+      "hash": "69f2a31e343eebf75e34004ae465a75559a4b41b"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_wisteria_town_centers_wisteria_meeting_point_1_5c2cc9c8b4.nbt",
+      "hash": "383a593497b506f12f2f50559b90436dfba5b616"
+    },
+    {
+      "path": "modernfix/structureCacheV1/natures_spirit_village_wisteria_town_centers_wisteria_meeting_point_2_8eabee6e83.nbt",
+      "hash": "aca7fae3c8e93488d7987d38ff36d7304c750bd5"
+    },
+    {
+      "path": "modernfix/structureCacheV1/supplementaries_way_sign_62ca40a11e.nbt",
+      "hash": "4ad0bde6e3616f6b7ff5b79e23b7569a8e025eed"
+    },
+    {
+      "path": "modernfix/structureCacheV1/waystones_village_common_waystone_8018c9c611.nbt",
+      "hash": "99d8ea0a41a9dc29362f94fdac4ac31ab2e87859"
+    },
+    {
+      "path": "modernfix/structureCacheV1/waystones_village_desert_waystone_5acb5b0605.nbt",
+      "hash": "7e601baf972a9ac6d00ed6b5a5ff0347edb1730f"
+    },
+    {
+      "path": "mods/addonslib-1.20.1-1.5.jar",
+      "hash": "51366e70321b30040f81ab285d10e6f3ec78fbf7"
+    },
+    {
+      "path": "mods/ae2insertexportcard-1.20.1-1.3.0.jar",
+      "hash": "df8cbd8e49e001696a3d3e2c8352c3bb310e8c6f"
+    },
+    {
+      "path": "mods/aotake_sweep-forge-1.20.1-1.0.5.jar",
+      "hash": "0b46f2d01b7860827079ca1e74ef48c001300e87"
+    },
+    {
+      "path": "mods/appliedenergistics2-forge-15.4.8.jar",
+      "hash": "afe5d93caa77f5acb0806a4c8908f0c39d99ea7f"
+    },
+    {
+      "path": "mods/architectury-9.2.14-forge.jar",
+      "hash": "a52918a500ff421180a1cbd1a0cabee712134ec4"
+    },
+    {
+      "path": "mods/atmospheric-1.20.1-6.1.1.jar",
+      "hash": "9a655ae0953d0205c10315560466779228c08b18"
+    },
+    {
+      "path": "mods/autumnity-1.20.1-5.0.2.jar",
+      "hash": "1e74111aba8fe812adf7f2292bd51a391e32dc6d"
+    },
+    {
+      "path": "mods/bakeddelight-0.1.2.jar",
+      "hash": "3dc6dbe995df61b81d3b1e8bedd8ad2308c595da"
+    },
+    {
+      "path": "mods/balm-forge-1.20.1-7.3.34-all.jar",
+      "hash": "dd571104e24e58d9c022ae9e58fbcfa2120b0470"
+    },
+    {
+      "path": "mods/beautify-2.0.2.jar",
+      "hash": "497ab2ebccbf89f15845428cf0e26ca5d9c4ce76"
+    },
+    {
+      "path": "mods/better-creepers-1.1.jar",
+      "hash": "044fa832709ee936e404f2db22ce5afe38912ddc"
+    },
+    {
+      "path": "mods/biomemakeover-FORGE-1.20.1-1.11.4.jar",
+      "hash": "8093790297cc1c567184708aac6c8b98b5c8430c"
+    },
+    {
+      "path": "mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+      "hash": "957adcd274e7c64853c93293976ecdd388a3b7fe"
+    },
+    {
+      "path": "mods/blueprint-1.20.1-7.1.3.jar",
+      "hash": "fdf9cb568546e80485ea4402a39656ed9acfa991"
+    },
+    {
+      "path": "mods/botarium-forge-1.20.1-2.3.4.jar",
+      "hash": "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b"
+    },
+    {
+      "path": "mods/carrasconlib-forge-1.20.1-0.1.jar",
+      "hash": "bcd51694634275ed8920832f04da6b178df2046b"
+    },
+    {
+      "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
+      "hash": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f"
+    },
+    {
+      "path": "mods/casualness_delight-1.20.1-0.4n.jar",
+      "hash": "dff138d3d92f17383f599ee25b118a852a3710b5"
+    },
+    {
+      "path": "mods/cloth-config-11.1.136-forge.jar",
+      "hash": "c65d07748acc57ceb45d53b3964368b84f34d54f"
+    },
+    {
+      "path": "mods/CoffeeDelight-Forge-1.20.1-1.5-Fix.jar",
+      "hash": "c57f2d25223b2fea8a745de0b2579b177ba04809"
+    },
+    {
+      "path": "mods/collective-1.20.1-8.3.jar",
+      "hash": "ec387c40637a330661d9f4c3e59d93efc17046a2"
+    },
+    {
+      "path": "mods/Corgilib-Forge-1.20.1-4.0.3.4.jar",
+      "hash": "4b08e5f8f2580842eacd5388458a0b52411a9fb2"
+    },
+    {
+      "path": "mods/CrabbersDelight-1.20.1-1.1.7e.jar",
+      "hash": "d18a808069476137e78f5a406cc8b02f969ed899"
+    },
+    {
+      "path": "mods/cratedelight-25.08.08-1.20-forge.jar",
+      "hash": "1204929bda3a5712d6d21ad4a9ff97825d0b28fc"
+    },
+    {
+      "path": "mods/create-1.20.1-6.0.6.jar",
+      "hash": "c5eb5efad7a4776d558b44b28891f2e33eef03e4"
+    },
+    {
+      "path": "mods/create-confectionery1.20.1_v1.1.0.jar",
+      "hash": "96bcf48819806ee0911d3e555de8cbc77c9dea05"
+    },
+    {
+      "path": "mods/create-new-age-forge-1.20.1-1.1.4.jar",
+      "hash": "46687106ee5753ff3a92580ce514c6abc6216045"
+    },
+    {
+      "path": "mods/createnuclear-1.3.0-forge.jar",
+      "hash": "281518d3502ce74f6faedec67e86e23cbeb1eee4"
+    },
+    {
+      "path": "mods/createoreexcavation-1.20-1.6.4.jar",
+      "hash": "bc63dee3a93b15f5e8c9036f7c16ea4b1c477d1a"
+    },
+    {
+      "path": "mods/createrailwaysnavigator-forge-1.20.1-beta-0.8.4-C6.jar",
+      "hash": "3defca0cbbf32361790f68aeddad23b983138ba5"
+    },
+    {
+      "path": "mods/create_aquatic_ambitions-1.20.1-2.0.1.jar",
+      "hash": "15ae78527d0fb4ce5d1b855c0f4ca5063d84bc04"
+    },
+    {
+      "path": "mods/create_central_kitchen-1.20.1-for-create-6.0.4-1.4.2.jar",
+      "hash": "2679fc041460feaa64e63624fa9b5525a2e88b61"
+    },
+    {
+      "path": "mods/create_connected-1.1.7-mc1.20.1-all.jar",
+      "hash": "19a6e467dc5e2345c698bfdbe43a7823ff9f7d3f"
+    },
+    {
+      "path": "mods/create_interiors-0.5.6+forge-mc1.20.1-local.jar",
+      "hash": "5f46c829dc012138faa1191d97ef79c7569b53a1"
+    },
+    {
+      "path": "mods/create_powergrid-mc1.20.1-0.1.4.jar",
+      "hash": "9b209a0422201def54b70a17e3ea79ac87f7abd9"
+    },
+    {
+      "path": "mods/create_ratatouille-1.20.1-1.3.4.jar",
+      "hash": "d12889ea80ab93925d52487126ef22c6f650aaf5"
+    },
+    {
+      "path": "mods/create_rustic_structures-1.0.0-forge-1.20.1.jar",
+      "hash": "591ffb312ba9da52a8554ef7f9377b49432db7f0"
+    },
+    {
+      "path": "mods/create_simple_generator-1.0.9-1.20.1.jar",
+      "hash": "2417f0e2398b392a1dc998a8076ec7a0ef2fcbdb"
+    },
+    {
+      "path": "mods/Croptopia-1.20.1-FORGE-3.0.4.jar.disable",
+      "hash": "2008e6887b9490c491ddb471e87cfb6d26684dc5"
+    },
+    {
+      "path": "mods/croptopiadelight-1.3.2.jar.disable",
+      "hash": "cd163588421d9fbdf461e9e03151413bbbec8850"
+    },
+    {
+      "path": "mods/cuisinedelight-1.1.17.jar",
+      "hash": "b54a056daa1ab3fecaa19b6d4bd857dc6cbd84c0"
+    },
+    {
+      "path": "mods/Delightful-1.20.1-3.7.4.jar",
+      "hash": "23f19e9d413ccb730a5aa86075c1819d21f6ddef"
+    },
+    {
+      "path": "mods/delightfulcreators-1.2.jar",
+      "hash": "bb3645482adcca88276d69756c38fc725a3a5cdb"
+    },
+    {
+      "path": "mods/dimensionviewer-1.20-1.4.0.jar",
+      "hash": "ad69ac50b0d808f530e55b688a07136fc5381ab5"
+    },
+    {
+      "path": "mods/dungeonsdelight-1.20.1-1.2.7.jar",
+      "hash": "c5a9646a0b099227c166e78f1b8dbe259bf80b77"
+    },
+    {
+      "path": "mods/EggDelight-v1.2-1.20.1.jar",
+      "hash": "9c0632d800e58856f7e521c0e6b04b07ffa40665"
+    },
+    {
+      "path": "mods/Egg_delight-v1.2-1.20.1.jar",
+      "hash": "9c0632d800e58856f7e521c0e6b04b07ffa40665"
+    },
+    {
+      "path": "mods/ends_delight-2.5.1+forge.1.20.1.jar",
+      "hash": "535c442625be4bd26ee637cdf7055c30b79a0b65"
+    },
+    {
+      "path": "mods/environmental-1.20.1-4.1.0.jar",
+      "hash": "e029ab33438a22994ed36fd4adddc68fe395b181"
+    },
+    {
+      "path": "mods/FallingTree-1.20.1-4.3.4.jar",
+      "hash": "44d15ae2074b761597e8b8de5846cb2f98f64d25"
+    },
+    {
+      "path": "mods/Farmers-delight-1.20.1-1.2.9.jar",
+      "hash": "ca9417c369e75d38dacdac59937223e5f6adcc18"
+    },
+    {
+      "path": "mods/FarmersDelight-1.20.1-1.2.9.jar",
+      "hash": "ca9417c369e75d38dacdac59937223e5f6adcc18"
+    },
+    {
+      "path": "mods/fruitsdelight-1.1.1.jar",
+      "hash": "3ecef6a32c36cffd14de39c3be7c5e16463781fd"
+    },
+    {
+      "path": "mods/frycooks_delight-1.20.1-1.0.1.jar",
+      "hash": "bf86c4f0679dffe23cfb2d50f5b0669c8427d1ed"
+    },
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.7.4.jar",
+      "hash": "db550c1cab6c5e07a592f7881b6772d45626a50d"
+    },
+    {
+      "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "hash": "1a0aaf7c33b9acb26bf75899a43e8941cac1f6e7"
+    },
+    {
+      "path": "mods/gravestone-forge-1.20.1-1.0.33.jar",
+      "hash": "17d669333d32e373188217dca58296323fcd0c90"
+    },
+    {
+      "path": "mods/guardvillagers-1.20.1-1.6.11.jar",
+      "hash": "9101b742d5f1db9653bf06664c12affc8f7ae63a"
+    },
+    {
+      "path": "mods/guideme-20.1.12.jar",
+      "hash": "64b858e6983a2a5cc149ea2f4d579dd6a44973c9"
+    },
+    {
+      "path": "mods/integrated_api-1.5.1+1.20.1-forge.jar",
+      "hash": "f26d3cd0f80510d478a7f867ee59fe878192e9b0"
+    },
+    {
+      "path": "mods/integrated_villages-1.1.4+1.20.1-forge.jar",
+      "hash": "11b428c721ccef5e30d2171547ff3c2dfb735987"
+    },
+    {
+      "path": "mods/jmi-forge-1.20.1-0.14-48.jar",
+      "hash": "f2be323d589b953eaa303f8b74913831a5a9b77b"
+    },
+    {
+      "path": "mods/journeymap-1.20.1-5.10.3-forge.jar",
+      "hash": "fdd97a782bdc6d0e28a851a9715abb190df47aa6"
+    },
+    {
+      "path": "mods/LeavesBeGone-v8.0.0-1.20.1-Forge.jar",
+      "hash": "c5043f862be7db76892c7c0c95d02fa3f8332af0"
+    },
+    {
+      "path": "mods/letsdo-bloomingnature-forge-1.0.12.jar",
+      "hash": "360727042ae8579f5cdc95650953b39ea30fabfa"
+    },
+    {
+      "path": "mods/macawsroofsbop-1.20-1.1.jar",
+      "hash": "4fa966027a2a2182682502b2166b617ad71fd6ed"
+    },
+    {
+      "path": "mods/macawsroofsbyg-1.20.1-1.0.jar",
+      "hash": "25215dc4fe96be05ac7b80efe8b150386c5de182"
+    },
+    {
+      "path": "mods/mcw-bridges-3.1.0-mc1.20.1forge.jar",
+      "hash": "7a94bff9e9c2408c6c36e64d5c911e5759cddc10"
+    },
+    {
+      "path": "mods/mcw-doors-1.1.2-mc1.20.1forge.jar",
+      "hash": "731069f0a9c1377da0681415b6523e71439ae014"
+    },
+    {
+      "path": "mods/mcw-fences-1.2.0-1.20.1forge.jar",
+      "hash": "45bb2cd2be580c0a85d3da719d6d2b850fa1c6b3"
+    },
+    {
+      "path": "mods/mcw-furniture-3.3.0-mc1.20.1forge.jar",
+      "hash": "997ff389bebed728e1e8094ba5438e7beb059ef3"
+    },
+    {
+      "path": "mods/mcw-paintings-1.0.5-1.20.1forge.jar",
+      "hash": "47455c48ff84c0ba42936a95a1bb3709689e24cf"
+    },
+    {
+      "path": "mods/mcw-paths-1.1.0forge-mc1.20.1.jar",
+      "hash": "67e3b94d014739ae3c3ecf25320c32d741ec19c4"
+    },
+    {
+      "path": "mods/mcw-roofs-2.3.2-mc1.20.1forge.jar",
+      "hash": "2b02beb2bd177aa695dc6fc030fc3bb230ca96b1"
+    },
+    {
+      "path": "mods/mcw-roofs-bop-1.20-1.1.jar",
+      "hash": "4fa966027a2a2182682502b2166b617ad71fd6ed"
+    },
+    {
+      "path": "mods/mcw-roofs-byg-1.20.1-1.0.jar",
+      "hash": "25215dc4fe96be05ac7b80efe8b150386c5de182"
+    },
+    {
+      "path": "mods/mcw-stairs-1.0.1-1.20.1forge.jar",
+      "hash": "90f3a4002518d5c03353891498f8ad7b55332d2d"
+    },
+    {
+      "path": "mods/mcw-trapdoors-1.1.4-mc1.20.1forge.jar",
+      "hash": "a9fc844cc096dbd9180e2f98f9f86545a0daeb28"
+    },
+    {
+      "path": "mods/mcw-windows-2.4.0-1.20.1forge.jar",
+      "hash": "729457d0adb369f8151618e71d3638df148623f5"
+    },
+    {
+      "path": "mods/mcwabnormals-1.20.1-1.2.jar",
+      "hash": "9ab67e0fa5ab8824b6ac97e6cc2c0ae8d2f4f0fc"
+    },
+    {
+      "path": "mods/mcwfencesbop-1.20-1.2.jar",
+      "hash": "9df88a2ac3a69b055589034a83cfa965efebaf4e"
+    },
+    {
+      "path": "mods/mcwfencesbyg-1.20.1-1.1.jar",
+      "hash": "8fac0a94586a4411ef13515f8f0d55af28b41354"
+    },
+    {
+      "path": "mods/mcwfurnituresbop-1.20-1.2.jar",
+      "hash": "07461b8c3038a9330d44c5cd1f0d80e6e46478a5"
+    },
+    {
+      "path": "mods/mcwfurnituresbyg-1.20.1-1.0.jar",
+      "hash": "13c9831fa53a8e4fbae95b453c26e5178e757d86"
+    },
+    {
+      "path": "mods/mineraldelight-2.0.jar",
+      "hash": "5e1c7ba37089430ff23bd04bfc4c75ff0e29725d"
+    },
+    {
+      "path": "mods/miners_delight-1.20.1-1.2.3.jar",
+      "hash": "817ab785307e34895900fa23ce9d5dc4ee8eadf5"
+    },
+    {
+      "path": "mods/moonlight-1.20-2.16.8-forge.jar",
+      "hash": "3cde645d204a3cc5e1550b839e2954ee5b70d454"
+    },
+    {
+      "path": "mods/moredelight-25.07.28-1.20-forge.jar",
+      "hash": "a13f7413da77910145c2c914d0b81819c3f2b7b2"
+    },
+    {
+      "path": "mods/more_villargers-2.5.8-forge-1.20.1.jar",
+      "hash": "0070a50d60e955c79a7e720d601ac77fb20939a6"
+    },
+    {
+      "path": "mods/mysterious_mountain_lib-1.5.24-1.20.1.jar",
+      "hash": "3d8faf3c9e7a727758d6a76d284cf923f987146b"
+    },
+    {
+      "path": "mods/narcissus_farewell-forge-1.20.1-1.1.4.jar",
+      "hash": "b2f4c6805c0c50f111c6226198d274ac8a5fe673"
+    },
+    {
+      "path": "mods/natures_spirit-2.2.5-1.20.1.jar",
+      "hash": "edd4d2ea52eed1ff90b412f10eb29f5e4650c147"
+    },
+    {
+      "path": "mods/nethersdelight-1.20.1-4.0.jar",
+      "hash": "c6da9c681bf2ec1d7b3e96db739c2b1113f6b838"
+    },
+    {
+      "path": "mods/oceanic_delight-1.0.3-forge-1.20.1.jar",
+      "hash": "65e14fdfdd00a0772dced2f57617accb83ec39dd"
+    },
+    {
+      "path": "mods/oceansdelight-1.0.2-1.20.jar",
+      "hash": "32af985453bde77bfa56d59cdfb11cab5662c8e1"
+    },
+    {
+      "path": "mods/Oh-The-Biomes-Weve-Gone-Forge-1.6.5.jar",
+      "hash": "5ee75963f5a2ea9b17dba207816f205674d75560"
+    },
+    {
+      "path": "mods/Oh-The-Trees-Youll-Grow-forge-1.20.1-1.3.13.jar",
+      "hash": "cc4e87c35b770f2ae32bbd57497828e897e512c6"
+    },
+    {
+      "path": "mods/Patchouli-1.20.1-84.1-FORGE.jar",
+      "hash": "e91d2e2f251375d647d592b670ea6f310c2554eb"
+    },
+    {
+      "path": "mods/PineappleDelight-Forge-1.20-1.0.13.jar",
+      "hash": "a69f8b849b07872600768d6ccbb5b33a378c236d"
+    },
+    {
+      "path": "mods/pizzadelight-1.20.1-1.0.0.jar",
+      "hash": "da560e6a4e9c06459c96e7e73c2139afcc48d506"
+    },
+    {
+      "path": "mods/polaristrading-1.4-SNAPSHOT.jar",
+      "hash": "d1ba5084bd8c203a4afce17138f896d3648e83de"
+    },
+    {
+      "path": "mods/Psi-1.20.1-102.jar",
+      "hash": "fb45df310579991d8fab2db1b3c6fb5326940bef"
+    },
+    {
+      "path": "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "hash": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf"
+    },
+    {
+      "path": "mods/qa_extends-1.15-forge-1.20.1.jar",
+      "hash": "edd499eda2c055a7d4424c2882bdbb227fdaceca"
+    },
+    {
+      "path": "mods/repurposed_structures-7.1.19+1.20.1-forge.jar",
+      "hash": "8605ad00f483bb6d6ac0afc5b1c7b07a5cd5c476"
+    },
+    {
+      "path": "mods/RunicLib-forge-1.20.1-4.3.5.jar",
+      "hash": "42ad13f3f65b5ea94ad97d9ec89f4ba04ea50222"
+    },
+    {
+      "path": "mods/rusticdelight-forge-1.20.1-1.4.1.jar",
+      "hash": "5519aad2d247e5a90fe23ff5eb33fb2c71ab5716"
+    },
+    {
+      "path": "mods/Sakura-1.1.15-1.20.1.jar",
+      "hash": "db744d0fef382ddf88ccf44f7ce057ed084d97f2"
+    },
+    {
+      "path": "mods/sawmill-1.20-1.4.10.jar",
+      "hash": "a22d7c1e3f6142d061f4f52447489628ebcf3e43"
+    },
+    {
+      "path": "mods/SeedDelight-NeoorForge-1.20.1-1.0.1.jar",
+      "hash": "4e3fe5b22cc6d0fac4863b61f4692a59bf233855"
+    },
+    {
+      "path": "mods/skinlayers3d-forge-1.9.0-mc1.20.1.jar",
+      "hash": "be3070725cc01e3df10560b29b4f340126d1ec46"
+    },
+    {
+      "path": "mods/Slime_Delight-1.20.1_forge-1.1.0.jar",
+      "hash": "c70d8ad8f07520262291bf93e8f39f407f6c3087"
+    },
+    {
+      "path": "mods/starterkit-1.20.1-7.4.jar",
+      "hash": "8c6f9cb038c7b41b317f79645c8110a9f31016ca"
+    },
+    {
+      "path": "mods/storagedelight-25.06.26-1.20-forge.jar",
+      "hash": "fe9201577effb4d1d448bd8bdf50c0e91f505804"
+    },
+    {
+      "path": "mods/structurecredits-1.20.1-3.0-forge.jar",
+      "hash": "10e5f86107e1e6b6e30ed2c61cd5aaa75cd205b1"
+    },
+    {
+      "path": "mods/sunflowerdelight-1.20.1-1.0.4.1.jar",
+      "hash": "112d28c372a00b28d99f65f610ab133fb9039164"
+    },
+    {
+      "path": "mods/supplementaries-1.20-3.1.38.jar",
+      "hash": "8f5f4a68c1f4a13d95773afcc9b4ef4f76ef7078"
+    },
+    {
+      "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+      "hash": "3bd99fb59e8b06b04e78b5153790c1e08b2be5dc"
+    },
+    {
+      "path": "mods/terrestria-forge-6.0.13.jar",
+      "hash": "c2d3a9a40c3739fd95b4a9bbe88527ae3abf67b5"
+    },
+    {
+      "path": "mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+      "hash": "11ae4c94aa94b38b78cf9b901dad4612b679f8ac"
+    },
+    {
+      "path": "mods/trailandtales_delight-1.3-all.jar",
+      "hash": "11655851598c85ea58ccd2c9dc2444dfe0d1ebd1"
+    },
+    {
+      "path": "mods/traverse-forge-7.0.12.jar",
+      "hash": "90bc41b2a4c6c6821bd8ae41f7d790b01510f312"
+    },
+    {
+      "path": "mods/ubesdelight-forge-1.20.1-0.4.3.jar",
+      "hash": "de1085ccb48a026f71011971efb52f454201856d"
+    },
+    {
+      "path": "mods/upgrade_aquatic-1.20.1-6.0.3.jar",
+      "hash": "8745e0f1c1371fe5c028aa7397e4de1a0c4220f6"
+    },
+    {
+      "path": "mods/villagespawnpoint-1.20.1-4.6.jar",
+      "hash": "1f121bbe2914a71807c6723860a818b48196d972"
+    },
+    {
+      "path": "mods/vintagedelight-0.1.6.jar",
+      "hash": "279a68afc8d815e957cabc689e925cdaf7578109"
+    },
+    {
+      "path": "mods/waystones-forge-1.20.1-14.1.17.jar",
+      "hash": "0572e124fa1af248b5b978d7c615fb31629103e5"
+    },
+    {
+      "path": "mods/worldedit-mod-7.2.15.jar",
+      "hash": "9c52765ca56f917ef8cbafc20e9a4f45c346508f"
+    },
+    {
+      "path": "mods/YungsApi-1.20-Forge-4.0.6.jar",
+      "hash": "af584b690f5646c6032002b58abc4591beed3833"
+    },
+    {
+      "path": "mods/YungsBetterCaves-1.20.1-Forge-2.0.4.jar",
+      "hash": "cea34576ae62537c22136874cd0c91ff33cff8d7"
+    },
+    {
+      "path": "mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+      "hash": "31b386b2dbaa4933e0a10ccdfb25f56da16931a6"
+    },
+    {
+      "path": "mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "hash": "67a9e1c2ff126ab54cea8e0709d178915243039e"
+    },
+    {
+      "path": "mods/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+      "hash": "4e7bf109981593061b8100bc8bf23e1c9bbcbb76"
+    },
+    {
+      "path": "mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+      "hash": "0b3c8556983895fea980247bb4d437ca535e7259"
+    },
+    {
+      "path": "mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+      "hash": "889cd16a93764d1d6af2e2dda5bbc286a2683e7a"
+    },
+    {
+      "path": "mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+      "hash": "d8e74ed19903752a97ed0e1d2b1a8bf378bc252f"
+    },
+    {
+      "path": "mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+      "hash": "3730238c56edca4bb5b2238e1314aec572ced385"
+    },
+    {
+      "path": "mods/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+      "hash": "71fee574f920c6b05004f100ba07e9b8d5844169"
+    },
+    {
+      "path": "mods/YungsBridges-1.20-Forge-4.0.3.jar",
+      "hash": "88467fe87b95e6cf7a432822033cf74dd8586254"
+    },
+    {
+      "path": "mods/YungsCaveBiomes-1.20.1-Forge-2.0.5.jar",
+      "hash": "c0a57a7d5a0cea0297f82a482490fc1e7933695f"
+    },
+    {
+      "path": "mods/YungsMenuTweaks-1.20.1-Forge-1.0.2.jar",
+      "hash": "b43a0bc054d3974076d36b5cfec6aeab968d24a6"
+    },
+    {
+      "path": "mods/[CLI]BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
+      "hash": "06db0b9e79cd2b7df8501f51304e4c884b1e84a1"
+    },
+    {
+      "path": "mods/[CLI]BetterPingDisplay-1.20.1-1.1.jar",
+      "hash": "6347a5bff9405c59ec7d428e5e24115f5b17a90b"
+    },
+    {
+      "path": "mods/[CLI]crop-marker-forge-1.20.4-1.2.2.jar",
+      "hash": "3ffbe0efc796e562834e37e2322d1d42e5246432"
+    },
+    {
+      "path": "mods/[CLI]embeddium-0.3.31+mc1.20.1.jar",
+      "hash": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
+    },
+    {
+      "path": "mods/[CLI]entityculling-forge-1.8.2-mc1.20.1.jar",
+      "hash": "0a465a4dbbc4b21b3465bb15796635b5c1024cf4"
+    },
+    {
+      "path": "mods/[CLI]fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
+      "hash": "253d21fd87657e6dc1e451c9758f5daaa71b86c8"
+    },
+    {
+      "path": "mods/[CLI]Fastquit-3.0.1+1.20.1forge.jar",
+      "hash": "3bb20fb815c95689abc360322701c3c2cae4e66c"
+    },
+    {
+      "path": "mods/[CLI]GeckoLibOculusCompat-Forge-1.0.1.jar",
+      "hash": "d5c91ae0cfade2672bf00628721da661a59930c5"
+    },
+    {
+      "path": "mods/[CLI]IAS-Forge-1.20.1-9.0.4.jar",
+      "hash": "4abacb7399e8110eb1e217d06a8a45dac3b273e6"
+    },
+    {
+      "path": "mods/[CLI]IMBlocker-5.4.3.1-forge+1.17-1.20.4.jar",
+      "hash": "ae845b48b59b7bc6ecca7c11ba842ec6ce90b1be"
+    },
+    {
+      "path": "mods/[CLI]immersive_optimization-forge-1.20.1-0.1.0.jar",
+      "hash": "58a2e199bf7992edb6ac765e7694be96cb53efde"
+    },
+    {
+      "path": "mods/[CLI]Neat-1.20.1-41-FORGE.jar",
+      "hash": "32fe1c807ac0c6aed8045260934f1ba6dc491361"
+    },
+    {
+      "path": "mods/[CLI]oculus-mc1.20.1-1.8.0.jar",
+      "hash": "984f774e71790deaec674c7587bd24e0711871b2"
+    },
+    {
+      "path": "natives-windows-x86_64/glfw.dll",
+      "hash": "3c0e8e7fcbc854a87219fbbfd181c2cc76018144"
+    },
+    {
+      "path": "natives-windows-x86_64/jemalloc.dll",
+      "hash": "e25eae45e9cb2f17380279d3edc89be5520bebdd"
+    },
+    {
+      "path": "natives-windows-x86_64/jna1619298130211818759.dll",
+      "hash": "526e95d2afde5ef07dd0aca671261dfbc7fcfa17"
+    },
+    {
+      "path": "natives-windows-x86_64/jna1619298130211818759.dll.x",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl.dll",
+      "hash": "0c9b501520c20055ba77bbd8cae4895fcb1cfa40"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_opengl.dll",
+      "hash": "8f1bbc60d651e010a6e1734547aec9e9786ffdbe"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_stb.dll",
+      "hash": "5d7a779e99f85af814b7a9dd6443b11b5a678bd9"
+    },
+    {
+      "path": "natives-windows-x86_64/OpenAL.dll",
+      "hash": "900ac280d11730ec4b774073ef748cc81fbbdf14"
+    },
+    {
+      "path": "oei/global_replacement_cache.dat",
+      "hash": "521633c56c503dc028c82a790ba58aa39bc7c0bb"
+    },
+    {
+      "path": "options.txt",
+      "hash": "30d751299981ffe514771b2fcfedfff755329faa"
+    },
+    {
+      "path": "patchouli_data.json",
+      "hash": "e28113747114045e9069ed57387097fe5d906f9c"
+    },
+    {
+      "path": "resourcepacks/Grove 1.0.5.zip",
+      "hash": "83ec8240d88dfb4ae40dccbe983044448c9d6d9c"
+    },
+    {
+      "path": "servers.dat",
+      "hash": "68080ad75067fdac15875cc6fd0fca32ee7a8d72"
+    },
+    {
+      "path": "servers.dat_old",
+      "hash": "68080ad75067fdac15875cc6fd0fca32ee7a8d72"
+    },
+    {
+      "path": "shaderpacks/Ebin-Resurrected-v1.5.6.zip",
+      "hash": "bb98ba80939aaf9464368f542a5cd339b1a27db2"
+    },
+    {
+      "path": "shaderpacks/MakeUp-UltraFast-9.3d.zip",
+      "hash": "7bc14291c48de5bddb1f462ea149e684d4609671"
+    },
+    {
+      "path": "_IAS_ACCOUNTS_DO_NOT_SEND_TO_ANYONE/.hidden/accounts_v1.do_not_send_to_anyone",
+      "hash": "65e125d034f95fa98394f64fbcfe2791d5f2bba3"
+    },
+    {
+      "path": "_IAS_ACCOUNTS_DO_NOT_SEND_TO_ANYONE/READ_ME_IMPORTANT.txt",
+      "hash": "bb0b51aaa2ee839304e8207769fc189d4a1d0755"
+    },
+    {
+      "path": "_IAS_ACCOUNTS_DO_NOT_SEND_TO_ANYONE/ПРОЧТИ_МЕНЯ_ВАЖНО.txt",
+      "hash": "bb0b51aaa2ee839304e8207769fc189d4a1d0755"
+    }
+  ],
+  "addons": [
+    {
+      "id": "game",
+      "version": "1.20.1"
+    },
+    {
+      "id": "forge",
+      "version": "47.4.6"
+    }
+  ]
+}

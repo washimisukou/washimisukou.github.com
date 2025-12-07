@@ -1,0 +1,43 @@
+
+["Natural Transform Config"]
+
+	["Natural Transform Config"."Frozen Soil"]
+		#Enable frozen soil transformation from dirt near ice blocks
+		enableFrozenSoilTransform = true
+		#Chance for dirt to transform into frozen soil (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		frozenSoilTransformChance = 0.15
+		#Range to check for ice blocks around dirt
+		#Range: 1 ~ 5
+		frozenSoilTransformRange = 2
+
+	["Natural Transform Config".Brine]
+		#Enable brine direct transformation of nearby soil blocks and farmland
+		enableBrineTransform = true
+		#Chance for brine to directly transform nearby soil blocks into saline variants (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		brineTransformChance = 0.1
+		#Range for brine to directly affect nearby blocks (also used for desalination range)
+		#Range: 1 ~ 5
+		brineTransformRange = 4
+
+	["Natural Transform Config"."Salt Crystal"]
+		#Enable salt crystal generation on saline blocks
+		enableSaltCrystalGeneration = true
+		#Chance for salt crystal to generate on saline soil (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		saltCrystalGenerationChance = 0.15
+		#Range to check for brine around saline blocks for crystal generation
+		#Range: 1 ~ 8
+		saltCrystalGenerationRange = 5
+
+	["Natural Transform Config"."Niter Bed"]
+		#Enable niter bed formation
+		enableNiterBedFormation = true
+		#Chance for niter bed to form niter crystals (0.0-1.0)
+		#Range: 0.0 ~ 1.0
+		niterBedFormationChance = 0.2
+		#Time in ticks for niter bed to fully form niter
+		#Range: 1200 ~ 24000
+		niterBedFormationTime = 6000
+
