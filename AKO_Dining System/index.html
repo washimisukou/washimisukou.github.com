@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>甜品点单 — 按提货门店分类</title>
+    <link rel="stylesheet" href="./res/styles.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main onload="SwitchPage('MainPage');">
+        <article id="MainPage" class="page is-hidden"><!-- 商品页面 -->
+            <div><!-- 门店A -->
+                <a>门店A</a>
+                <ul>
+                    <li>
+                        <img src="./res/1.jpg" alt="甜品图片">
+                        <p><a>甜品1</a></p>
+                        <p><a>这是甜品介绍</a></p>
+                        <p><a>库存:∞</a></p>
+                        <p class="priceRow"><a>￥00.00</a><span class="separator" aria-hidden="true">|</span><a
+                                class="addToCart">加购</a></p>
+                        <p class="faShow"><a>已有</a><a>N/A</a><a>个人购买</a></p>
+                    </li>
+                    <li>
+                        <img src="./res/1.jpg" alt="甜品图片">
+                        <p><a>甜品2</a></p>
+                        <p><a>这是甜品介绍</a></p>
+                        <p><a>库存:∞</a></p>
+                        <p class="priceRow"><a>￥00.00</a><span class="separator" aria-hidden="true">|</span><a
+                                class="addToCart">加购</a></p>
+                        <p class="faShow"><a>已有</a><a>N/A</a><a>个人购买</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div><!-- 门店B -->
+                <a>门店B</a>
+                <ul>
+                    <li>
+                        <img src="./res/1.jpg" alt="甜品图片">
+                        <p><a>甜品1</a></p>
+                        <p><a>这是甜品介绍</a></p>
+                        <p><a>库存:∞</a></p>
+                        <p class="priceRow"><a>￥00.00</a><span class="separator" aria-hidden="true">|</span><a
+                                class="addToCart">加购</a></p>
+                        <p class="faShow"><a>已有</a><a>N/A</a><a>个人购买</a></p>
+                    </li>
+                    <li>
+                        <img src="./res/1.jpg" alt="甜品图片">
+                        <p><a>甜品2</a></p>
+                        <p><a>这是甜品介绍</a></p>
+                        <p><a>库存:∞</a></p>
+                        <p class="priceRow"><a>￥00.00</a><span class="separator" aria-hidden="true">|</span><a
+                                class="addToCart">加购</a></p>
+                        <p class="faShow"><a>已有</a><a>N/A</a><a>个人购买</a></p>
+                    </li>
+                </ul>
+            </div>
+            <!-- 购物车摘要 -->
+            <div class="footerCart" role="region" aria-label="购物车摘要">
+                <div class="footerCartContent">
+                    <div class="cartSummary">
+                        <span class="cartTotalLabel">合计：</span>
+                        <span class="cartTotal">￥0.00</span>
+                    </div>
+                    <button class="checkoutBtn" aria-label="查看购物车" onclick="SwitchPage('CartPage')">查看购物车</button>
+                </div>
+            </div>
+        </article>
+        <article id="CartPage" class="page is-hidden"><!-- 购物车页面 -->
+            <div class="cartPageContainer">
+                <div class="cartStoreList">
+                    <fieldset class="cartStore">
+                        <legend>门店1</legend>
+                        <ul>
+                            <li class="cartItemInfo">
+                                <img src="./res/1.jpg" alt="甜品图片" class="cartItemImg">
+                                <a class="cartItemTitle">甜品1</a>
+                                <a>数量:</a>
+                                <input id="qty-store1-1" name="qty-store1-1" type="number" min="1" value="1"
+                                    title="输入购买数量" placeholder="请输入数量" aria-label="数量" class="cartQtyInput" />
+                                <a>￥</a>
+                                <a>00.00</a>
+                                <a>移除</a>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset class="cartStore">
+                        <legend>门店2</legend>
+                        <ul>
+                            <li class="cartItemInfo">
+                                <img src="./res/1.jpg" alt="甜品图片" class="cartItemImg">
+                                <a class="cartItemTitle">甜品1</a>
+                                <a>数量:</a>
+                                <input id="qty-store2-1" name="qty-store2-1" type="number" min="1" value="1"
+                                    title="输入购买数量" placeholder="请输入数量" aria-label="数量" class="cartQtyInput" />
+                                <a>￥</a>
+                                <a>00.00</a>
+                                <a>移除</a>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+                <!-- 总价结算 -->
+                <div class="footerCart" role="region" aria-label="购物车摘要">
+                    <div class="footerCartContent">
+                        <button class="checkoutBtn" aria-label="继续点单" onclick="SwitchPage('MainPage')">继续点单</button>
+                        <div class="cartSummary">
+                            <span class="cartTotalLabel">合计：</span>
+                            <span class="cartTotal">￥0.00</span>
+                        </div>
+                        <button class="checkoutBtn" aria-label="结算" onclick="SwitchPage('PickupInfoPage')">结算</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="PickupInfoPage" class="page is-hidden"><!-- 取餐信息页面 -->
+            <section class="pickupPage">
+                <h2 class="pageTitle">取餐信息</h2>
+                <form class="pickupForm" onsubmit="event.preventDefault(); SwitchPage('PaymentPage');" novalidate>
+                    <fieldset class="pickupFieldset">
+                        <legend>联系信息</legend>
+                        <div class="formRow">
+                            <label for="pickup-name">昵称</label>
+                            <input id="pickup-name" name="pickup-name" type="text" placeholder="请输入姓名/昵称" required
+                                aria-required="true">
+                        </div>
+                        <div class="formRow">
+                            <label for="pickup-phone">手机号码</label>
+                            <input id="pickup-phone" name="pickup-phone" type="tel" placeholder="1380000xxxx"
+                                pattern="^\\d{6,15}$" required aria-required="true">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="pickupFieldset">
+                        <legend>取餐设置</legend>
+                        <div class="formRow">
+                            <label for="pickup-store">门店</label>
+                            <select id="pickup-store" name="pickup-store">
+                                <option>门店A</option>
+                                <option>门店B</option>
+                            </select>
+                        </div>
+                        <div class="formRow">
+                            <label for="pickup-time">取餐时间</label>
+                            <input id="pickup-time" name="pickup-time" type="datetime-local">
+                        </div>
+                        <div class="formRow">
+                            <label for="pickup-note">备注（选填）</label>
+                            <textarea id="pickup-note" name="pickup-note" rows="3" placeholder="有特殊要求可写在这里"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <div class="formActions">
+                        <button type="button" class="checkoutBtn" onclick="SwitchPage('CartPage')">返回购物车</button>
+                        <button type="submit" class="checkoutBtn">前往付款</button>
+                    </div>
+                </form>
+            </section>
+        </article>
+        <article id="PaymentPage" class="page is-hidden"><!-- 付款页面 -->
+            <img src="./res/pay.jpg" alt="收款码">
+            <a>请截图付款,付款请备注 CN 和 电话号码</a>
+            <fieldset>
+                <legend>请选择付款渠道</legend>
+                <label><input type="radio" name="paySelect" value="1">微信支付</label>
+                <label><input type="radio" name="paySelect" value="2">支付宝</label>
+            </fieldset>
+            <a>填写转帐单号后六位:</a>
+            <input type="number" placeholder="请输入转帐单号后六位" required aria-required="true"><!-- 请填写转帐单号后六位 -->
+            <p><a>如何查询转帐单号后六位？</a></p>
+            <div class="formActions">
+                <button type="button" class="checkoutBtn" onclick="SwitchPage('CartPage')">返回购物车</button>
+                <button type="submit" class="checkoutBtn" onclick="SwitchPage('ReceiptPage')">确认付款并获取凭据</button>
+            </div>
+        </article>
+        <article id="ReceiptPage" class="page is-hidden"><!-- 凭据页面 -->
+            <a>付款成功！感谢您的购买。</a>
+            <a>您的取餐码是：</a>
+            <a>123456</a>
+            <a>请截图或者复制,以妥善保管此取餐码，以便取餐时核验。</a>
+            <div class="formActions">
+                <button type="button" class="checkoutBtn" onclick="SwitchPage('CartPage')">返回购物车</button>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <script>
+            // 页面切换：通过添加/移除 .is-hidden 类控制显示（替代内联 style）
+            document.addEventListener('DOMContentLoaded', function () {
+                SwitchPage('MainPage');
+            });
+
+            function SwitchPage(page) {
+                const pages = ['MainPage', 'CartPage', 'PickupInfoPage', 'PaymentPage', 'ReceiptPage'];
+                pages.forEach(id => {
+                    const el = document.getElementById(id);
+                    if (!el) return;
+                    // 确保基础类存在
+                    if (!el.classList.contains('page')) el.classList.add('page');
+                    if (id === page) el.classList.remove('is-hidden');
+                    else el.classList.add('is-hidden');
+                });
+            }
+        </script>
+
+    </footer>
+</body>
+
+</html>
