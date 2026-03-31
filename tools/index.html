@@ -12,12 +12,15 @@
             border: 0px;
             font-size: 20px;
         }
+
         p {
             margin: 0em;
         }
+
         .dev {
             opacity: 0.3;
         }
+
         .tools {
             text-align: center;
             width: auto;
@@ -63,7 +66,10 @@
             document.getElementById('output').textContent = result;
         }
         else {
-            document.getElementById('output').textContent = '请输入4位数字';
+            if (input.length > 0) {
+                document.getElementById('output').textContent = '请输入4位数字';
+                return;
+            }
         }
     }
     function updateDisplay2() {
@@ -73,7 +79,10 @@
             document.getElementById('output2').textContent = result;
         }
         else {
-            document.getElementById('output2').textContent = '请输入4位数字';
+            if (input.length > 0) {
+                document.getElementById('output2').textContent = '请输入4位数字';
+                return;
+            }
         }
     }
 </script>
